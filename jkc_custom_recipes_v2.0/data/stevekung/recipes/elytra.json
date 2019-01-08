@@ -1,0 +1,22 @@
+{    
+    "type": "crafting_shaped",
+    "pattern": [
+        "MMM",
+        "LML",
+        "LSL"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+        "S": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra"
+    }
+}

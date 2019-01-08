@@ -1,0 +1,16 @@
+{    
+    "type": "crafting_shaped",
+    "group": "block_from_slab",
+    "pattern": [
+        "X",
+        "X"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:dark_prismarine_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_prismarine"
+    }
+}

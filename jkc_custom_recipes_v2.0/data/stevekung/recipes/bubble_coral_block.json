@@ -1,0 +1,21 @@
+{
+    "group": "coral_block_from_dead",
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XWX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:dead_bubble_coral_block"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:bubble_coral_block",
+        "count": 8
+    }
+}

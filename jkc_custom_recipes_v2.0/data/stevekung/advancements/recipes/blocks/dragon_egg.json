@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:dragon_egg"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:obsidian"
+                    }
+                ]
+            }
+        },
+        "has_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_head"
+                    }
+                ]
+            }
+        },
+        "has_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_crystal"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:dragon_egg"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_head",
+            "has_crystal",
+            "has_the_recipe"
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:dark_prismarine_from_stairs"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dark_prismarine_stairs"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:dark_prismarine_from_stairs"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_the_recipe"
+        ]
+    ]
+}

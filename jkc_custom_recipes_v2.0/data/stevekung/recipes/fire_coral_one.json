@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "coral_plant_from_dead",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_fire_coral"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "minecraft:fire_coral"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "CXC",
+        "XPX",
+        "CXC"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:horn_coral_fan"
+        },
+        "C": {
+            "item": "minecraft:horn_coral"
+        },
+        "P": {
+            "item": "minecraft:pufferfish"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 4
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "wool_from_carpet",
+    "ingredients": [
+        {
+            "item": "minecraft:light_gray_carpet"
+        },
+        {
+            "item": "minecraft:light_gray_carpet"
+        },
+        {
+            "item": "minecraft:light_gray_carpet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:light_gray_wool",
+        "count": 2
+    }
+}

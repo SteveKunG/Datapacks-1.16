@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:red_stained_glass_pane_from_dye"
+        ]
+    },
+    "criteria": {
+        "has_white_stained_glass_pane_from_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:glass_pane"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:red_stained_glass_pane_from_dye"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_white_stained_glass_pane_from_dye",
+            "has_the_recipe"
+        ]
+    ]
+}

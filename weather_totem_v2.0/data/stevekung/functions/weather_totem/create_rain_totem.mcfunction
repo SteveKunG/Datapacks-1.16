@@ -1,0 +1,2 @@
+summon lightning_bolt ~ ~ ~
+give @a[limit=1,distance=..8,sort=random] totem_of_undying{IsRainTotem:1b,CustomModelData:2552,display:{Name:"{\"text\":\"Rain Totem\",\"color\":\"blue\",\"italic\":\"false\"}",Lore:["{\"text\":\"Raining IV\",\"color\":\"gray\",\"italic\":\"false\"}","\"\"","{\"text\":\"Create raining for 60 minutes\",\"color\":\"green\",\"italic\":\"false\"}"]}}

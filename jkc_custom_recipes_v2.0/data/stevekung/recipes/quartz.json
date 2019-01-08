@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "tag": "minecraft:block_to_quartz"
+        }
+    ],
+    "result": {
+        "item": "minecraft:quartz",
+        "count": 2
+    }
+}

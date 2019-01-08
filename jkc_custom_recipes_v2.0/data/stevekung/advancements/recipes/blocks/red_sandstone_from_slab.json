@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:red_sandstone_from_slab"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_sandstone_slab"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:red_sandstone_from_slab"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_the_recipe"
+        ]
+    ]
+}

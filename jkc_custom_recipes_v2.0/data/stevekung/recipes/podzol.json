@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX",
+        " D "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:spruce_leaves"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "minecraft:podzol"
+    }
+}

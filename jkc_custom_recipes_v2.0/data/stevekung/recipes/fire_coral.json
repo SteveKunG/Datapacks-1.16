@@ -1,0 +1,21 @@
+{
+    "group": "coral_plant_from_dead",
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XWX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:dead_fire_coral"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:fire_coral",
+        "count": 8
+    }
+}

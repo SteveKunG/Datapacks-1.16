@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OHO",
+        "OCO"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "H": {
+            "item": "minecraft:dragon_head"
+        },
+        "C": {
+            "item": "minecraft:end_crystal"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_egg"
+    }
+}

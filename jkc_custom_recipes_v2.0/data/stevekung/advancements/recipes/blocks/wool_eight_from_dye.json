@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:white_wool",
+            "stevekung:orange_wool",
+            "stevekung:magenta_wool",
+            "stevekung:light_blue_wool",
+            "stevekung:yellow_wool",
+            "stevekung:lime_wool",
+            "stevekung:pink_wool",
+            "stevekung:gray_wool",
+            "stevekung:light_gray_wool",
+            "stevekung:cyan_wool",
+            "stevekung:purple_wool",
+            "stevekung:blue_wool",
+            "stevekung:brown_wool",
+            "stevekung:green_wool",
+            "stevekung:red_wool",
+            "stevekung:black_wool"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:wool"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions"
+        ]
+    ]
+}

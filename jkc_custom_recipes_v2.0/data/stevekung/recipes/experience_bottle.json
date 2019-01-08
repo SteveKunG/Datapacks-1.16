@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " X ",
+        "XBX",
+        " X "
+    ],
+    "key": {
+        "X": {
+            "tag": "minecraft:mob_drop"
+        },
+        "B": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "minecraft:experience_bottle",
+        "count": 2
+    }
+}

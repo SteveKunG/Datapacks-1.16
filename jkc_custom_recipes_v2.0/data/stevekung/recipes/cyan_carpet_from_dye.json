@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "carpet_from_dye",
+    "ingredients": [
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "tag": "minecraft:carpets"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cyan_carpet"
+    }
+}

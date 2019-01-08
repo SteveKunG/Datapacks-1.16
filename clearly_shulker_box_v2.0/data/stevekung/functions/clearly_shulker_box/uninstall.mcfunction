@@ -1,0 +1,1 @@
+datapack disable "file/clearly_shulker_box_v2.0"

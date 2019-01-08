@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "group": "horse_armor",
+    "pattern": [
+        "  X",
+        "XSX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:saddle"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_horse_armor"
+    }
+}

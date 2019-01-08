@@ -1,0 +1,13 @@
+{    
+    "type": "crafting_shapeless",
+    "group": "dead_coral_plant_from_block",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_tube_coral_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dead_tube_coral",
+        "count": 4
+    }
+}

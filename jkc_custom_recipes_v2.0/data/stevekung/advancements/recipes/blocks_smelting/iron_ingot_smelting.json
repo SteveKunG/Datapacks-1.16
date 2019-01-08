@@ -1,0 +1,87 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:iron_ingot_from_smelting"
+        ]
+    },
+    "criteria": {
+        "has_cauldron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cauldron"
+                    }
+                ]
+            }
+        },
+        "has_bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bucket"
+                    }
+                ]
+            }
+        },
+        "has_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:minecart"
+                    }
+                ]
+            }
+        },
+        "has_iron_door": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_door"
+                    }
+                ]
+            }
+        },
+        "has_hopper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ]
+            }
+        },
+        "has_anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:anvil"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:iron_ingot_from_smelting"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_cauldron",
+            "has_bucket",
+            "has_minecart",
+            "has_iron_door",
+            "has_hopper",
+            "has_anvil",
+            "has_the_recipe"
+        ]
+    ]
+}

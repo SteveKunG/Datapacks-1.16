@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "red_nether_bricks",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:nether_bricks"
+        },
+        "Y": {
+            "item": "minecraft:nether_wart_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:red_nether_bricks",
+        "count": 8
+    }
+}

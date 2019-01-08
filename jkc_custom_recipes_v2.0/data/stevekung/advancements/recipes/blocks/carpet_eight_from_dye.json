@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:white_carpet",
+            "stevekung:orange_carpet",
+            "stevekung:magenta_carpet",
+            "stevekung:light_blue_carpet",
+            "stevekung:yellow_carpet",
+            "stevekung:lime_carpet",
+            "stevekung:pink_carpet",
+            "stevekung:gray_carpet",
+            "stevekung:light_gray_carpet",
+            "stevekung:cyan_carpet",
+            "stevekung:purple_carpet",
+            "stevekung:blue_carpet",
+            "stevekung:brown_carpet",
+            "stevekung:green_carpet",
+            "stevekung:red_carpet",
+            "stevekung:black_carpet"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:carpets"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions"
+        ]
+    ]
+}

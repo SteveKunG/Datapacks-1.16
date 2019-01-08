@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XFX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:gravel"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "minecraft:sand",
+        "count": 8
+    }
+}

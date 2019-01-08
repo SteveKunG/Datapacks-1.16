@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X X",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_chestplate"
+    }
+}

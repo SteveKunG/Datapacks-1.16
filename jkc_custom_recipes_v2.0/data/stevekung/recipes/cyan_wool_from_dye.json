@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "wool_from_dye",
+    "ingredients": [
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "tag": "minecraft:wool"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cyan_wool"
+    }
+}

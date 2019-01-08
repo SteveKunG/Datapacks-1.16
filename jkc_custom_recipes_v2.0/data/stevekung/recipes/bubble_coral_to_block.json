@@ -1,0 +1,16 @@
+{
+    "group": "coral_plant_to_block",
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:bubble_coral"
+        }
+    },
+    "result": {
+        "item": "minecraft:bubble_coral_block"
+    }
+}

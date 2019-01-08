@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:brown_concrete_powder_from_dye"
+        ]
+    },
+    "criteria": {
+        "has_white_concrete_powder_from_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:concrete_powder"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:brown_concrete_powder_from_dye"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_white_concrete_powder_from_dye",
+            "has_the_recipe"
+        ]
+    ]
+}

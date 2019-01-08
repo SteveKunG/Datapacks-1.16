@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:emerald_from_heads"
+        ]
+    },
+    "criteria": {
+        "has_condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:emerald_from_heads"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_condition",
+            "has_the_recipe"
+        ]
+    ]
+}

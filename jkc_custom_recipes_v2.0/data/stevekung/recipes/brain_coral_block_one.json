@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "coral_block_from_dead",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_brain_coral_block"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brain_coral_block"
+    }
+}

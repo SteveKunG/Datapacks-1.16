@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "bread",
+    "pattern": [
+        "XX",
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:bread"
+    }
+}

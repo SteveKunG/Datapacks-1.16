@@ -1,0 +1,16 @@
+{
+    "group": "shulker_shell",
+    "type": "crafting_shaped",
+    "pattern": [
+        "X X",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:purpur_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:shulker_shell"
+    }
+}

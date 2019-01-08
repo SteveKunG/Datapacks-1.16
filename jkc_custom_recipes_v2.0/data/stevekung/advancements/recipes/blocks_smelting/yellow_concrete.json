@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:yellow_concrete_from_smelting"
+        ]
+    },
+    "criteria": {
+        "has_concrete": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_concrete_powder"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:yellow_concrete_from_smelting"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_concrete",
+            "has_the_recipe"
+        ]
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:sponge"
+        ]
+    },
+    "criteria": {
+        "has_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:horn_coral"
+                    }
+                ]
+            }
+        },
+        "has_plant": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:horn_coral_fan"
+                    }
+                ]
+            }
+        },
+        "has_fish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pufferfish"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:sponge"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_plant",
+            "has_coral",
+            "has_fish",
+            "has_the_recipe"
+        ]
+    ]
+}

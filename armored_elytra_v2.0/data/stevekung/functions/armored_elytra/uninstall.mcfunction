@@ -1,0 +1,1 @@
+datapack disable "file/armored_elytra_v2.0"

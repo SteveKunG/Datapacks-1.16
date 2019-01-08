@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:white_concrete_powder"
+    },
+    "result": "minecraft:white_concrete",
+    "experience": 0.7,
+    "cookingtime": 200
+}

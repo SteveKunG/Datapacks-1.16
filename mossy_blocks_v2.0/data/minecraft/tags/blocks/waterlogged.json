@@ -1,0 +1,24 @@
+{
+    "values": [
+        "#minecraft:slabs",
+        "#minecraft:stairs",
+        "#minecraft:fences",
+        "#minecraft:trapdoors",
+        "#minecraft:glass_panes",
+        "#minecraft:chests",
+        "#minecraft:corals",
+        "#minecraft:coral_plants",
+        "#minecraft:wall_corals",
+        "#minecraft:dead_corals",
+        "#minecraft:dead_coral_plants",
+        "#minecraft:dead_wall_corals",
+        "#minecraft:signs",
+        "minecraft:ladder",
+        "minecraft:iron_bars",
+        "minecraft:cobblestone_wall",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:sea_pickle",
+        "minecraft:conduit",
+        "minecraft:scaffolding"
+    ]
+}

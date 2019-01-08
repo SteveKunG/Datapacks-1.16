@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XAX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:iron_ingot"
+        },
+        "A": {
+            "item": "minecraft:damaged_anvil"
+        }
+    },
+    "result": {
+        "item": "minecraft:anvil"
+    }
+}

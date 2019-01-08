@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:glass_pane"
+        ]
+    },
+    "criteria": {
+        "has_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:glass_pane"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:glass_pane"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_glass_pane",
+            "has_the_recipe"
+        ]
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "concrete_from_dye",
+    "ingredients": [
+        {
+            "item": "minecraft:magenta_dye"
+        },
+        {
+            "tag": "minecraft:concrete"
+        }
+    ],
+    "result": {
+        "item": "minecraft:magenta_concrete"
+    }
+}

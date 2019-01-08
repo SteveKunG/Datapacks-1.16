@@ -1,0 +1,13 @@
+{    
+    "type": "crafting_shapeless",
+    "group": "coral_plant_from_block",
+    "ingredients": [
+        {
+            "item": "minecraft:brain_coral_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brain_coral",
+        "count": 4
+    }
+}

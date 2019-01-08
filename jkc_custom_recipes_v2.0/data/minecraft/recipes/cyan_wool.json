@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "wool_eight_from_dye",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "X": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_wool",
+        "count": 8
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:light_gray_concrete_powder"
+    },
+    "result": "minecraft:light_gray_concrete",
+    "experience": 0.7,
+    "cookingtime": 200
+}

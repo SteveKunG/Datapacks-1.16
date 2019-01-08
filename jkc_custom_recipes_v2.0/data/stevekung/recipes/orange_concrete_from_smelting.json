@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:orange_concrete_powder"
+    },
+    "result": "minecraft:orange_concrete",
+    "experience": 0.7,
+    "cookingtime": 200
+}

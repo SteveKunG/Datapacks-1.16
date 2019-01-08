@@ -1,0 +1,13 @@
+{    
+    "type": "crafting_shapeless",
+    "group": "dead_coral_fan_from_plant",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_brain_coral"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dead_brain_coral_fan",
+        "count": 2
+    }
+}

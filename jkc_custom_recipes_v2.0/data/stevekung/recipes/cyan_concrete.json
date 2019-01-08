@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "concrete",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:concrete"
+        },
+        "X": {
+            "item": "minecraft:cyan_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_concrete",
+        "count": 8
+    }
+}

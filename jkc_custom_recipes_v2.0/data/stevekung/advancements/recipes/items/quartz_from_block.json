@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:quartz"
+        ]
+    },
+    "criteria": {
+        "has_condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:quartz"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_condition",
+            "has_the_recipe"
+        ]
+    ]
+}

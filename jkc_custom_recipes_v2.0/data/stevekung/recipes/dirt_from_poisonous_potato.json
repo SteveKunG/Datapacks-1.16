@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "group": "dirt",
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:poisonous_potato"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt"
+    }
+}

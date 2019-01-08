@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "carpet_eight_from_dye",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:carpets"
+        },
+        "X": {
+            "item": "minecraft:gray_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_carpet",
+        "count": 8
+    }
+}

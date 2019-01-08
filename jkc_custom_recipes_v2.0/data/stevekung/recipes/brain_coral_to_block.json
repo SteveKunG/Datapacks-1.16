@@ -1,0 +1,16 @@
+{
+    "group": "coral_plant_to_block",
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:brain_coral"
+        }
+    },
+    "result": {
+        "item": "minecraft:brain_coral_block"
+    }
+}

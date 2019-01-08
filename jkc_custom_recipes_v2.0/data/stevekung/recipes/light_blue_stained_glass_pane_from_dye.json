@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "stained_glass_pane_from_dye",
+    "ingredients": [
+        {
+            "item": "minecraft:light_blue_dye"
+        },
+        {
+            "tag": "minecraft:glass_pane"
+        }
+    ],
+    "result": {
+        "item": "minecraft:light_blue_stained_glass_pane"
+    }
+}

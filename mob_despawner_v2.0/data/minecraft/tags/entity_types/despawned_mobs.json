@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:creeper",
+        "minecraft:bat",
+        "minecraft:blaze",
+        "minecraft:drowned",
+        "minecraft:enderman",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:husk",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:slime",
+        "minecraft:spider",
+        "minecraft:stray",
+        "minecraft:witch",
+        "minecraft:zombie_pigman",
+        "minecraft:zombie_villager",
+        "minecraft:pillager",
+        "minecraft:vindicator"
+    ]
+}

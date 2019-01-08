@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:prismarine_shard"
+        ]
+    },
+    "criteria": {
+        "has_condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:prismarine"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:prismarine_shard"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_condition",
+            "has_the_recipe"
+        ]
+    ]
+}

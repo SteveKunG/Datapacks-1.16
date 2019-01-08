@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XTX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:sand"
+        },
+        "T": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_sand",
+        "count": 8
+    }
+}

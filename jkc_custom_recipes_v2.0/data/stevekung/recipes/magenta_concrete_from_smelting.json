@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:magenta_concrete_powder"
+    },
+    "result": "minecraft:magenta_concrete",
+    "experience": 0.7,
+    "cookingtime": 200
+}

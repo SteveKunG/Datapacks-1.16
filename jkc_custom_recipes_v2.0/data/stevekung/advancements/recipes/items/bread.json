@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:bread_from_wheat_seeds_1",
+            "stevekung:bread_from_wheat_seeds_2"
+        ]
+    },
+    "criteria": {
+        "has_seeds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wheat_seeds"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:bread_from_wheat_seeds_1"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:bread_from_wheat_seeds_2"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_seeds",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}

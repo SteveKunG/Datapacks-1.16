@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "concrete",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:concrete"
+        },
+        "X": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_concrete",
+        "count": 8
+    }
+}

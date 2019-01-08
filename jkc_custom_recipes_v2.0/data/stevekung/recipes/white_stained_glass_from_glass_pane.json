@@ -1,0 +1,34 @@
+{
+    "group": "glass_from_glass_pane",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        {
+            "item": "minecraft:white_stained_glass_pane"
+        }
+    ],
+    "result": {
+        "item": "minecraft:white_stained_glass",
+        "count": 3
+    }
+}

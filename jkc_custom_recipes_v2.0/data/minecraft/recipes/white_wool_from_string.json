@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "group": "wool",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_wool"
+    }
+}

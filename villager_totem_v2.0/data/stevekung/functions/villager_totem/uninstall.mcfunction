@@ -1,0 +1,1 @@
+datapack disable "file/villager_totem_v2.0"

@@ -1,0 +1,1 @@
+datapack disable "file/magnet_v2.0"

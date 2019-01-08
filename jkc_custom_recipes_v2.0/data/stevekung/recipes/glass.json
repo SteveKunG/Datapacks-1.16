@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:glass"
+        }
+    ],
+    "result": {
+        "item": "minecraft:glass"
+    }
+}

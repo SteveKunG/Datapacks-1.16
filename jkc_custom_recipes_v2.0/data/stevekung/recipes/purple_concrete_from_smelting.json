@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:purple_concrete_powder"
+    },
+    "result": "minecraft:purple_concrete",
+    "experience": 0.7,
+    "cookingtime": 200
+}

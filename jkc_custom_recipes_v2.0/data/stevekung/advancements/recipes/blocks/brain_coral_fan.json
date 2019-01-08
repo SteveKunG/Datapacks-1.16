@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:brain_coral_fan"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dead_brain_coral_fan"
+                    }
+                ]
+            }
+        },
+        "has_water": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:water_bucket"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:brain_coral_fan"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_water",
+            "has_the_recipe"
+        ]
+    ]
+}
