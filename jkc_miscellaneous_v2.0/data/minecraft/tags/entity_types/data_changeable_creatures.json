@@ -18,6 +18,8 @@
         "minecraft:mule",
         "minecraft:skeleton_horse",
         "minecraft:zombie_horse",
-        "minecraft:villager"
+        "minecraft:villager",
+        "minecraft:fox",
+        "minecraft:trader_llama"
     ]
 }
