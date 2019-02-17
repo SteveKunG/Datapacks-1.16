@@ -1,2 +1,0 @@
-summon lightning_bolt ~ ~ ~
-give @a[limit=1,distance=..8,sort=random] totem_of_undying{IsThunderTotem:1b,CustomModelData:2553,display:{Name:"{\"text\":\"Thunder Totem\",\"color\":\"blue\",\"italic\":\"false\"}",Lore:["{\"text\":\"Raining IV\",\"color\":\"gray\",\"italic\":\"false\"}","{\"text\":\"Thunder V\",\"color\":\"gray\",\"italic\":\"false\"}","\"\"","{\"text\":\"Create raining and thunder storm for 30 minutes\",\"color\":\"green\",\"italic\":\"false\"}"]}}
