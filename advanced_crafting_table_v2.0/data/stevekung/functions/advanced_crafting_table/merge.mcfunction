@@ -1,0 +1,2 @@
+data merge entity @e[type=item,nbt={Item:{id:"minecraft:dropper",Count:1b}},limit=1,distance=..3] {Item:{tag:{AdvTable:1b,Enchantments:[{}],display:{Name:"{\"text\":\"Advanced Crafting Table\",\"color\":\"blue\",\"italic\":\"false\"}",Lore:["{\"text\":\"Used to craft special items\",\"italic\":false,\"color\":\"dark_green\"}", "{\"text\":\"To use drop block on the ground\",\"italic\":false,\"color\":\"dark_green\"}"]}}}}
+kill @s
