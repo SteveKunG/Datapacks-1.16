@@ -1,6 +1,3 @@
-# create lava sponge
-execute as @e[type=item,nbt=!{Item:{tag:{IsLavaSponge:1b}}},nbt={Item:{id:"minecraft:wet_sponge",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:magma_block",Count:1b}},distance=..0.5] if entity @e[type=item,nbt={Item:{id:"minecraft:blaze_powder",Count:1b}},distance=..0.5] run function stevekung:lava_sponge/build
-
 # make sponge invulnerable
 execute as @e[type=item,tag=!lava_sponge_invul,nbt={Item:{tag:{IsLavaSponge:1b}}}] at @s run data merge entity @s {Invulnerable:1b,Tags:["lava_sponge_invul"]}
 
