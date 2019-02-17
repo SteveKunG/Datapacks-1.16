@@ -1,0 +1,10 @@
+{
+    "values": [
+        "stevekung:portable_beacon/compressed_beacon",
+        "stevekung:portable_beacon/haste_beacon",
+        "stevekung:portable_beacon/jump_boost_beacon",
+        "stevekung:portable_beacon/resistance_beacon",
+        "stevekung:portable_beacon/speed_beacon",
+        "stevekung:portable_beacon/strength_beacon"
+    ]
+}
