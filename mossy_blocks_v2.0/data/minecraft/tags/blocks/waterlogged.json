@@ -19,6 +19,7 @@
         "minecraft:mossy_cobblestone_wall",
         "minecraft:sea_pickle",
         "minecraft:conduit",
-        "minecraft:scaffolding"
+        "minecraft:scaffolding",
+        "minecraft:campfire"
     ]
 }
