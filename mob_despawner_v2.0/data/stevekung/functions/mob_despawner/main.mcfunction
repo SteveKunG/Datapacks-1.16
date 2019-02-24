@@ -20,7 +20,7 @@ execute as @e[type=armor_stand,tag=mob_despawner] at @s unless entity @e[type=ar
 execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run tp @s ~ ~ ~ ~3 ~
 
 # mob despawner ticks
-execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] if score @s despawner.ticks = MobDespawnTicksTmp despawner.ticks run scoreboard players set @s despawner.ticks 200
+execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] if score @s despawner.ticks = MobDespawnTicksTmp despawner.ticks run scoreboard players set @s despawner.ticks 160
 execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] if score @s despawner.ticks > MobDespawnTicksTmp despawner.ticks run scoreboard players remove @s despawner.ticks 1
 
 # mob despawner sound ticks
@@ -40,7 +40,7 @@ execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.ticks=0}] at 
 execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.sticks=0}] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run playsound block.beacon.ambient block @a[distance=..16] ~ ~ ~ 1 0.5
 
 # fix score if entity unloaded
-execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despawner.ticks=0..200}] run scoreboard players set @s despawner.ticks 0
+execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despawner.ticks=0..160}] run scoreboard players set @s despawner.ticks 0
 execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despawner.sticks=0..80}] run scoreboard players set @s despawner.sticks 0
 execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despawner.x=-30000000..30000000}] run execute store result score @s despawner.x run data get entity @s Pos[0]
 execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despawner.y=0..256}] run execute store result score @s despawner.y run data get entity @s Pos[1]
