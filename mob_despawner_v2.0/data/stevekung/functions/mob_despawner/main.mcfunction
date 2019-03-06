@@ -5,6 +5,9 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:200s
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:100s}] at @s if entity @e[type=armor_stand,tag=mob_despawner,distance=..64] if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ end_rod[facing=down] if block ~ ~-2 ~ end_rod[facing=up] if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ diamond_block unless block ~ ~-5 ~ bedrock run tellraw @a[distance=..8] {"text":"Cannot build! Other nearby mob despawner detected.","color":"red"}
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:100s}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ end_rod[facing=down] if block ~ ~-2 ~ end_rod[facing=up] if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ diamond_block if block ~ ~-5 ~ bedrock run tellraw @a[distance=..8] {"text":"Cannot build! Below the Diamond Block is bedrock!","color":"red"}
 
+# trigger ticks
+execute as @a[scores={despawner.trigg=1..}] at @s run function stevekung:mob_despawner/trigger
+
 # destroy if invalid
 execute as @e[type=armor_stand,tag=mob_despawner] at @s unless block ~ ~1 ~ end_rod[facing=down] run function stevekung:mob_despawner/destruction
 execute as @e[type=armor_stand,tag=mob_despawner] at @s unless block ~ ~ ~ end_rod[facing=up] run function stevekung:mob_despawner/destruction
@@ -18,6 +21,10 @@ execute as @e[type=armor_stand,tag=mob_despawner] at @s unless entity @e[type=ar
 
 # rotate mob despawner
 execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run tp @s ~ ~ ~ ~3 ~
+
+# mob despawner glow ticks
+execute as @e[type=armor_stand,tag=despawner_decor] if score @s despawner.gticks = MobDespawnGlowTicksTmp despawner.gticks run function stevekung:mob_despawner/uncheck_nearest
+execute as @e[type=armor_stand,tag=despawner_decor] if score @s despawner.gticks > MobDespawnGlowTicksTmp despawner.gticks run scoreboard players remove @s despawner.gticks 1
 
 # mob despawner ticks
 execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] if score @s despawner.ticks = MobDespawnTicksTmp despawner.ticks run scoreboard players set @s despawner.ticks 160
