@@ -1,0 +1,2 @@
+data merge entity @e[type=item,nbt={Item:{id:"minecraft:dropper",Count:1b}},limit=1,distance=..3] {Item:{tag:{TrashBin:1b,display:{Name:'{"text":"Trash Bin","color":"dark_gray","italic":false}',Lore:['{"text":"Used to remove unused items","color":"gold","italic":false}','{"text":"Delete items every 10 seconds","color":"gold","italic":false}']}}}}
+kill @s
