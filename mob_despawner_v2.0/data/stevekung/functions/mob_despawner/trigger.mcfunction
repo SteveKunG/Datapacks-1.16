@@ -5,4 +5,3 @@ execute if entity @s[scores={despawner.trigg=128}] as @e[type=armor_stand,tag=mo
 
 # reset trigger score
 trigger despawner.trigg set 0
-scoreboard players enable @a despawner.trigg

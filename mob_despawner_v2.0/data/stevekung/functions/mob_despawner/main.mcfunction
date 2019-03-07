@@ -6,6 +6,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:100s
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:100s}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ end_rod[facing=down] if block ~ ~-2 ~ end_rod[facing=up] if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ diamond_block if block ~ ~-5 ~ bedrock run tellraw @a[distance=..8] {"text":"Cannot build! Below the Diamond Block is bedrock!","color":"red"}
 
 # trigger ticks
+scoreboard players enable @a despawner.trigg
 execute as @a[scores={despawner.trigg=1..}] at @s run function stevekung:mob_despawner/trigger
 
 # destroy if invalid
