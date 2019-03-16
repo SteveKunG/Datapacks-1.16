@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.025
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:\"unbreaking\",lvl:3}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "mending"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.005
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"infinity\",lvl:1},{id:\"mending\",lvl:1}]}"
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "power",
+                                "punch",
+                                "flame",
+                                "unbreaking"
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": [
+                                "vanishing_curse"
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
