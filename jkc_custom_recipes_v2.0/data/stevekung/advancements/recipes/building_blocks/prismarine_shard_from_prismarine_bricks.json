@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:prismarine_shard"
+            "stevekung:prismarine_shard_from_prismarine_bricks"
         ]
     },
     "criteria": {
@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:prismarine"
+                        "item": "minecraft:prismarine_bricks"
                     }
                 ]
             }
@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:prismarine_shard"
+                "recipe": "stevekung:prismarine_shard_from_prismarine_bricks"
             }
         }
     },
