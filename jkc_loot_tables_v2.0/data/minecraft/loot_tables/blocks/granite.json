@@ -22,7 +22,12 @@
                                 {
                                     "condition": "minecraft:table_bonus",
                                     "enchantment": "minecraft:fortune",
-                                    "chances": [0.3]
+                                    "chances": [
+                                        0.15,
+                                        0.2,
+                                        0.3,
+                                        0.45
+                                    ]
                                 }
                             ],
                             "name": "minecraft:quartz"
