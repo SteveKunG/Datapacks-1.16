@@ -1,11 +1,9 @@
 {
     "type": "crafting_shapeless",
+    "group": "quartz",
     "ingredients": [
         {
-            "item": "minecraft:flint"
-        },
-        {
-            "tag": "minecraft:block_to_quartz"
+            "tag": "minecraft:quartz_slabs"
         }
     ],
     "result": {

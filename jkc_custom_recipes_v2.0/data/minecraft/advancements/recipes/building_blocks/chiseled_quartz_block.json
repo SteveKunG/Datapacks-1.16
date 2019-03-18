@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:quartz_block"
+                        "tag": "minecraft:quartz_blocks"
                     }
                 ]
             }

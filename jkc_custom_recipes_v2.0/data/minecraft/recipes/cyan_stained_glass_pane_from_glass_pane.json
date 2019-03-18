@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:glass_pane"
+            "tag": "minecraft:glass_panes"
         },
         "X": {
             "item": "minecraft:cyan_dye"

@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:glass_pane"
+                        "tag": "minecraft:glass_panes"
                     }
                 ]
             }

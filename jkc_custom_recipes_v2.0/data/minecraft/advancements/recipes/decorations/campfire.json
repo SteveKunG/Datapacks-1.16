@@ -2,16 +2,26 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:quartz_from_quartz_block"
+            "minecraft:campfire"
         ]
     },
     "criteria": {
-        "has_conditions": {
+        "has_stick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:quartz_block"
+                        "tag": "minecraft:sticks"
+                    }
+                ]
+            }
+        },
+        "has_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:coals"
                     }
                 ]
             }
@@ -19,13 +29,14 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:quartz_from_quartz_block"
+                "recipe": "minecraft:campfire"
             }
         }
     },
     "requirements": [
         [
-            "has_conditions",
+            "has_stick",
+            "has_coal",
             "has_the_recipe"
         ]
     ]

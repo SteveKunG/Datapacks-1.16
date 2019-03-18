@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "sticks",
+    "ingredients": [
+        {
+            "item": "minecraft:bamboo"
+        }
+    ],
+    "result": {
+        "item": "minecraft:stick"
+    }
+}

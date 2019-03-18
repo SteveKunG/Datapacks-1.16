@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:concrete"
+            "tag": "minecraft:concretes"
         },
         "X": {
             "item": "minecraft:blue_dye"

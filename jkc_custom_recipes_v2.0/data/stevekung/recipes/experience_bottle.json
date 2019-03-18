@@ -7,7 +7,7 @@
     ],
     "key": {
         "X": {
-            "tag": "minecraft:mob_drop"
+            "tag": "minecraft:mob_drops"
         },
         "B": {
             "item": "minecraft:glass_bottle"

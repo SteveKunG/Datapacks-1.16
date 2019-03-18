@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:coal",
+                        "tag": "minecraft:coals",
                         "count": {
                             "min": 9
                         }

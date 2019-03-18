@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:concrete_powder"
+            "tag": "minecraft:concrete_powders"
         },
         "X": {
             "item": "minecraft:magenta_dye"

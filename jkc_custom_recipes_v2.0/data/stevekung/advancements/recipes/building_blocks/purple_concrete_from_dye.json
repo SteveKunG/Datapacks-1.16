@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:concrete"
+                        "tag": "minecraft:concretes"
                     }
                 ]
             }

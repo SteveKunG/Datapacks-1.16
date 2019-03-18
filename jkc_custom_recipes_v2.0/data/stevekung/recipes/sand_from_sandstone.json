@@ -2,7 +2,7 @@
     "type": "crafting_shapeless",
     "ingredients": [
         {
-            "tag": "minecraft:sandstone"
+            "tag": "minecraft:sandstones"
         }
     ],
     "result": {
