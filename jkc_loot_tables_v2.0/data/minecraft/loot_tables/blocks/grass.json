@@ -1,0 +1,219 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "item": "minecraft:shears"
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:grass"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.125
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                }
+                            ],
+                            "name": "minecraft:wheat_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.015
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                }
+                            ],
+                            "name": "minecraft:pumpkin_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.005
+                                },
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_beach"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_taiga_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_tundra"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snowy_mountains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:frozen_river"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:ice_spikes"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                }
+                            ],
+                            "name": "minecraft:pumpkin_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.010
+                                },
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:jungle"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:jungle_hills"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_jungle"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:jungle_edge"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_jungle_edge"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:bamboo_jungle"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:bamboo_jungle_hills"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                }
+                            ],
+                            "name": "minecraft:melon_seeds"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
