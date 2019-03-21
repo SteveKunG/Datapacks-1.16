@@ -24,47 +24,23 @@
                                     }
                                 },
                                 {
-                                    "condition": "minecraft:block_state_property",
-                                    "block": "minecraft:campfire",
-                                    "properties": {
-                                        "waterlogged": "true"
-                                    }
-                                }
-                            ],
-                            "functions": [
-                                {
-                                    "function": "minecraft:set_nbt",
-                                    "tag": "{BlockStateTag:{lit:\"false\"}}"
-                                },
-                                {
-                                    "function": "minecraft:set_lore",
-                                    "lore": [{"text":"Unlit","color":"gray","italic":false}]
-                                }
-                            ],
-                            "name": "minecraft:campfire"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:block_state_property",
+                                            "block": "minecraft:campfire",
+                                            "properties": {
+                                                "waterlogged": "true"
                                             }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:block_state_property",
-                                    "block": "minecraft:campfire",
-                                    "properties": {
-                                        "lit": "false"
-                                    }
+                                        },
+                                        {
+                                            "condition": "minecraft:block_state_property",
+                                            "block": "minecraft:campfire",
+                                            "properties": {
+                                                "lit": "false"
+                                            }
+                                        }
+                                    ]
                                 }
                             ],
                             "functions": [
@@ -106,44 +82,39 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
+                    "type": "minecraft:item",
+                    "conditions": [
                         {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:survives_explosion"
-                                },
-                                {
-                                    "condition": "minecraft:inverted",
-                                    "term": {
-                                        "condition": "minecraft:match_tool",
-                                        "predicate": {
-                                            "enchantments": [
-                                                {
-                                                    "enchantment": "minecraft:silk_touch",
-                                                    "levels": {
-                                                        "min": 1
-                                                    }
-                                                }
-                                            ]
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:silk_touch",
+                                            "levels": {
+                                                "min": 1
+                                            }
                                         }
-                                    }
+                                    ]
                                 }
-                            ],
-                            "functions": [
-                                {
-                                    "function": "minecraft:set_count",
-                                    "count": {
-                                        "min": 1.0,
-                                        "max": 2.0,
-                                        "type": "minecraft:uniform"
-                                    }
-                                }
-                            ],
-                            "name": "minecraft:charcoal"
+                            }
                         }
-                    ]
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:charcoal"
                 }
             ]
         },
@@ -151,44 +122,39 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
+                    "type": "minecraft:item",
+                    "conditions": [
                         {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:survives_explosion"
-                                },
-                                {
-                                    "condition": "minecraft:inverted",
-                                    "term": {
-                                        "condition": "minecraft:match_tool",
-                                        "predicate": {
-                                            "enchantments": [
-                                                {
-                                                    "enchantment": "minecraft:silk_touch",
-                                                    "levels": {
-                                                        "min": 1
-                                                    }
-                                                }
-                                            ]
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:silk_touch",
+                                            "levels": {
+                                                "min": 1
+                                            }
                                         }
-                                    }
+                                    ]
                                 }
-                            ],
-                            "functions": [
-                                {
-                                    "function": "minecraft:set_count",
-                                    "count": {
-                                        "min": 0.0,
-                                        "max": 2.0,
-                                        "type": "minecraft:uniform"
-                                    }
-                                }
-                            ],
-                            "name": "minecraft:oak_log"
+                            }
                         }
-                    ]
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:oak_log"
                 }
             ]
         }
