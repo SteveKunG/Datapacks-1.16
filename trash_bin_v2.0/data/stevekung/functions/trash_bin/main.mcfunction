@@ -1,5 +1,5 @@
 # check if dropper exist
-execute as @e[type=armor_stand,tag=trash_bin] at @s unless block ~ ~1 ~ dropper[facing=down]{CustomName:"{\"italic\":false,\"color\":\"dark_gray\",\"text\":\"Trash Bin\"}"} run function stevekung:trash_bin/merge
+execute as @e[type=armor_stand,tag=trash_bin] at @s unless block ~ ~1 ~ dropper[facing=down]{CustomName:'{"italic":false,"color":"dark_gray","text":"Trash Bin"}'} run function stevekung:trash_bin/merge
 
 # create trash bin
 execute as @e[type=item,scores={trashbin.ticks=1},nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s run function stevekung:trash_bin/create_trash_bin
