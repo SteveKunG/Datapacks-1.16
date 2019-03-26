@@ -1,6 +1,6 @@
 {
     "group": "coral",
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "XX",
         "XX"

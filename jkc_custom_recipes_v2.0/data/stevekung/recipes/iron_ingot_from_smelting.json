@@ -1,5 +1,5 @@
 {
-    "type": "smelting",
+    "type": "minecraft:smelting",
     "group": "iron_ingot",
     "ingredient": [
         {

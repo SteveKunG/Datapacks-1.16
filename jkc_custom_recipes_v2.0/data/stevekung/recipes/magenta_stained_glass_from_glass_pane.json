@@ -1,6 +1,6 @@
 {
     "group": "glass_from_glass_pane",
-    "type": "crafting_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
             "item": "minecraft:magenta_stained_glass_pane"

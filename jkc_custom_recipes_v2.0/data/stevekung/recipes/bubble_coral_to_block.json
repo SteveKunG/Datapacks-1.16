@@ -1,6 +1,6 @@
 {
     "group": "coral_plant_to_block",
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "XX",
         "XX"

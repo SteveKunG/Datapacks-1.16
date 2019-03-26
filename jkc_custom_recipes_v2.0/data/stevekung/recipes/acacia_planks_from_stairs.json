@@ -1,5 +1,5 @@
 {    
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "group": "block_from_stairs",
     "pattern": [
         "XX",

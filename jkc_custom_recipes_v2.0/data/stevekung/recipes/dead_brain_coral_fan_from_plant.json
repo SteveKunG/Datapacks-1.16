@@ -1,5 +1,5 @@
 {    
-    "type": "crafting_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "group": "dead_coral_fan_from_plant",
     "ingredients": [
         {

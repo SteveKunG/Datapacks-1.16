@@ -1,6 +1,6 @@
 {
     "group": "shulker_shell",
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "XXX",
         "X X"
