@@ -1,1 +1,0 @@
-datapack disable "file/end_gateway_summoner_v2.0"

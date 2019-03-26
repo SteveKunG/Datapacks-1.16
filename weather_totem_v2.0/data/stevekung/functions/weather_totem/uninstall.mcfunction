@@ -1,1 +1,0 @@
-datapack disable "file/weather_totem_v2.0"

@@ -1,1 +1,0 @@
-datapack disable "file/mossy_blocks_v2.0"
