@@ -13,12 +13,18 @@
                                 {
                                     "condition": "minecraft:match_tool",
                                     "predicate": {
-                                        "item": "minecraft:diamond_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Hammer\\\"}\"}}"
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ],
-                            "name": "minecraft:gravel"
+                            "name": "minecraft:clay"
                         },
                         {
                             "type": "minecraft:item",
@@ -30,16 +36,20 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:stone"
+                            "name": "minecraft:terracotta"
                         },
                         {
                             "type": "minecraft:item",
-                            "conditions": [
+                            "functions": [
                                 {
-                                    "condition": "minecraft:survives_explosion"
+                                    "function": "minecraft:set_count",
+                                    "count": 4
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "minecraft:cobblestone"
+                            "name": "minecraft:clay_ball"
                         }
                     ]
                 }

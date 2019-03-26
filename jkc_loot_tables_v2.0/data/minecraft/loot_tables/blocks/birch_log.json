@@ -13,24 +13,11 @@
                                 {
                                     "condition": "minecraft:match_tool",
                                     "predicate": {
-                                        "item": "minecraft:diamond_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Hammer\\\"}\"}}"
-                                    }
-                                }
-                            ],
-                            "name": "minecraft:gravel"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
                                         "nbt": "{Smelting:1b}"
                                     }
                                 }
                             ],
-                            "name": "minecraft:stone"
+                            "name": "minecraft:charcoal"
                         },
                         {
                             "type": "minecraft:item",
@@ -39,7 +26,7 @@
                                     "condition": "minecraft:survives_explosion"
                                 }
                             ],
-                            "name": "minecraft:cobblestone"
+                            "name": "minecraft:birch_log"
                         }
                     ]
                 }
