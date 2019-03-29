@@ -51,6 +51,10 @@
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{SpawnXP:1}"
                                 }
                             ],
                             "conditions": [

@@ -17,6 +17,12 @@
                                     }
                                 }
                             ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{SpawnXP:5}"
+                                }
+                            ],
                             "name": "minecraft:iron_ingot"
                         },
                         {

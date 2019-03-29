@@ -17,6 +17,12 @@
                                     }
                                 }
                             ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{SpawnXP:1}"
+                                }
+                            ],
                             "name": "minecraft:orange_glazed_terracotta"
                         },
                         {
