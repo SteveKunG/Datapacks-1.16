@@ -24,6 +24,12 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "name": "minecraft:gameplay/fishing/rare_sea_loot",
+                    "weight": 1,
+                    "quality": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "name": "minecraft:gameplay/fishing/fish",
                     "weight": 85,
                     "quality": -1
