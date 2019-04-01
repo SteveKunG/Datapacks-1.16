@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:red_sand"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sand"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:red_sand"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_the_recipe"
+        ]
+    ]
+}
