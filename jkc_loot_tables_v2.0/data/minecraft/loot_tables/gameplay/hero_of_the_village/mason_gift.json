@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clay"
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:terracottas",
+                    "expand": true
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:concretes",
+                    "expand": true
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:glazed_terracottas",
+                    "expand": true
+                }
+            ]
+        }
+    ]
+}
