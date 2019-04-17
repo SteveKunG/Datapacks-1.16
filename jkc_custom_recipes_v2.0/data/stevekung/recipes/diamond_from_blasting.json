@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "tag": "minecraft:diamond_materials"
+    },
+    "result": "minecraft:diamond",
+    "experience": 0.75,
+    "cookingtime": 200
+}

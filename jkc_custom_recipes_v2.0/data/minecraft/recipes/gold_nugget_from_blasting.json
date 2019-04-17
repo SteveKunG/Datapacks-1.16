@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "tag": "minecraft:gold_nugget_materials"
+    },
+    "result": "minecraft:gold_nugget",
+    "experience": 0.1,
+    "cookingtime": 100
+}

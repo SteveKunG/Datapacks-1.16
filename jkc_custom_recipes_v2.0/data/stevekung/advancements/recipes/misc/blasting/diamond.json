@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:diamond_from_blasting"
+        ]
+    },
+    "criteria": {
+        "has_condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:diamond_materials"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:diamond_from_blasting"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_condition",
+            "has_the_recipe"
+        ]
+    ]
+}
