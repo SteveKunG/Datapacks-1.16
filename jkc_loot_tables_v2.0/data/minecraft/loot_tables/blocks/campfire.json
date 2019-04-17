@@ -46,7 +46,7 @@
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
-                                    "tag": "{BlockStateTag:{lit:\"false\"}}"
+                                    "tag": "{BlockStateTag:{lit:\"false\"},CustomModelData:8003}"
                                 },
                                 {
                                     "function": "minecraft:set_lore",
