@@ -6,62 +6,12 @@
         ]
     },
     "criteria": {
-        "has_shears": {
+        "has_condition": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:shears"
-                    }
-                ]
-            }
-        },
-        "has_compass": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:compass"
-                    }
-                ]
-            }
-        },
-        "has_heavy_weighted_pressure_plate": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:heavy_weighted_pressure_plate"
-                    }
-                ]
-            }
-        },
-        "has_iron_trapdoor": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:iron_trapdoor"
-                    }
-                ]
-            }
-        },
-        "has_iron_bars": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:iron_bars"
-                    }
-                ]
-            }
-        },
-        "has_rail": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:rail"
+                        "tag": "minecraft:iron_nugget_materials"
                     }
                 ]
             }
@@ -75,12 +25,7 @@
     },
     "requirements": [
         [
-            "has_shears",
-            "has_compass",
-            "has_heavy_weighted_pressure_plate",
-            "has_iron_trapdoor",
-            "has_iron_bars",
-            "has_rail",
+            "has_condition",
             "has_the_recipe"
         ]
     ]

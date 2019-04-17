@@ -1,26 +1,9 @@
 {
     "type": "minecraft:smelting",
     "group": "iron_ingot",
-    "ingredient": [
-        {
-            "item": "minecraft:cauldron"
-        },
-        {
-            "item": "minecraft:bucket"
-        },
-        {
-            "item": "minecraft:minecart"
-        },
-        {
-            "item": "minecraft:iron_door"
-        },
-        {
-            "item": "minecraft:hopper"
-        },
-        {
-            "tag": "minecraft:anvil"
-        }
-    ],
+    "ingredient": {
+        "tag": "minecraft:iron_ingot_materials"
+    },
     "result": "minecraft:iron_ingot",
     "experience": 0.3,
     "cookingtime": 200

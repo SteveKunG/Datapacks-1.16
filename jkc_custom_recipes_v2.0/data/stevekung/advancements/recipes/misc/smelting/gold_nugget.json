@@ -6,12 +6,12 @@
         ]
     },
     "criteria": {
-        "has_pressure_plate": {
+        "has_condition": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:light_weighted_pressure_plate"
+                        "tag": "minecraft:gold_nugget_materials"
                     }
                 ]
             }
@@ -25,7 +25,7 @@
     },
     "requirements": [
         [
-            "has_pressure_plate",
+            "has_condition",
             "has_the_recipe"
         ]
     ]

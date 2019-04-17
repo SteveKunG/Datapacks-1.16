@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:cauldron",
+        "minecraft:bucket",
+        "minecraft:minecart",
+        "minecraft:iron_door",
+        "minecraft:hopper",
+        "#minecraft:anvil"
+    ]
+}

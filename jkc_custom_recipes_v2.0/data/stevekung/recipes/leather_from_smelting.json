@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smelting",
     "ingredient": {
-        "item": "minecraft:rotten_flesh"
+        "tag": "minecraft:leather_materials"
     },
     "result": "minecraft:leather",
     "experience": 0.2,

@@ -1,0 +1,27 @@
+{
+    "values": [
+        "minecraft:iron_pickaxe",
+        "minecraft:iron_shovel",
+        "minecraft:iron_axe",
+        "minecraft:iron_hoe",
+        "minecraft:iron_sword",
+        "minecraft:iron_helmet",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_leggings",
+        "minecraft:iron_boots",
+        "minecraft:iron_horse_armor",
+        "minecraft:chainmail_helmet",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_boots",
+        "minecraft:shears",
+        "minecraft:compass",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:iron_trapdoor",
+        "minecraft:iron_bars",
+        "minecraft:rail",
+        "minecraft:shield",
+        "minecraft:activator_rail",
+        "minecraft:detector_rail"
+    ]
+}

@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:iron_ingot_from_smelting"
+            "minecraft:iron_nugget_from_smelting"
         ]
     },
     "criteria": {
@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:iron_ingot_materials"
+                        "tag": "minecraft:iron_nugget_materials"
                     }
                 ]
             }
@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:iron_ingot_from_smelting"
+                "recipe": "minecraft:iron_nugget_from_smelting"
             }
         }
     },
