@@ -5,39 +5,68 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:granite"
-                },
-                {
                     "type": "minecraft:alternatives",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:survives_explosion"
-                        }
-                    ],
                     "children": [
                         {
                             "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "condition": "minecraft:table_bonus",
-                                    "enchantment": "minecraft:fortune",
-                                    "chances": [
-                                        0.15,
-                                        0.2,
-                                        0.3,
-                                        0.45
-                                    ]
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
                                 }
                             ],
-                            "name": "minecraft:quartz"
+                            "name": "minecraft:granite"
+                        },
+                        {
+                            "type": "minecraft:alternatives",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "conditions": [
+                                        {
+                                            "condition": "minecraft:table_bonus",
+                                            "enchantment": "minecraft:fortune",
+                                            "chances": [
+                                                0.15,
+                                                0.2,
+                                                0.3,
+                                                0.45
+                                            ]
+                                        }
+                                    ],
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_count",
+                                            "count": {
+                                                "min": 1.0,
+                                                "max": 2.0,
+                                                "type": "minecraft:uniform"
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:quartz"
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:granite"
+                                }
+                            ]
                         }
                     ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
                 }
             ]
         }
