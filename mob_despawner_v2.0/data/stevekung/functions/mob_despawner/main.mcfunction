@@ -42,7 +42,7 @@ execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redston
 execute as @e[type=armor_stand,tag=mob_despawner] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] anchored eyes run particle happy_villager ^ ^0.1 ^0.5 0 0 0 2 1
 
 # despawn mobs
-execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.ticks=0}] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run function stevekung:mob_despawner/despawning_mobs
+execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.ticks=0}] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run function stevekung:mob_despawner/try_despawning
 
 # despawner sound
 execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.sticks=0}] at @s if block ~ ~-3 ~ redstone_lamp[lit=true] run playsound block.beacon.ambient block @a[distance=..16] ~ ~ ~ 1 0.5
@@ -58,7 +58,7 @@ execute as @e[type=armor_stand,tag=mob_despawner] unless entity @s[scores={despa
 ###### creative ######
 
 # despawn mobs
-execute as @e[type=armor_stand,tag=mob_despawner_creative,scores={cdespawner.ticks=0}] at @s run tp @e[type=#despawned_mobs,nbt=!{PersistenceRequired:1b},distance=..64] ~ ~-200 ~
+execute as @e[type=armor_stand,tag=mob_despawner_creative,scores={cdespawner.ticks=0}] at @s run function stevekung:mob_despawner/despawning_entities
 
 # mob despawner ticks
 execute as @e[type=armor_stand,tag=mob_despawner_creative] at @s if score @s cdespawner.ticks = CMobDespawnTicksTmp cdespawner.ticks run scoreboard players set @s cdespawner.ticks 20

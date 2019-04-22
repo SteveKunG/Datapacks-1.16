@@ -1,0 +1,1 @@
+give @s iron_ingot{CustomModelData:2602,display:{Lore:['{"text":"Used to craft special items","italic":false,"color":"dark_green"}','{"text":"To use drop block on the ground","italic":false,"color":"dark_green"}'],Name:'{"text":"Advanced Crafting Table","color":"blue","italic":"false"}'},AdvTable:1b}
