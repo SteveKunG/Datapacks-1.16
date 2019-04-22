@@ -1,0 +1,17 @@
+{    
+    "type": "minecraft:crafting_shaped",
+    "group": "block_from_trapdoor",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:birch_trapdoor"
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_planks",
+        "count": 2
+    }
+}
