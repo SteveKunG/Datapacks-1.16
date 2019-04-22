@@ -332,7 +332,7 @@
                         },
                         {
                             "function": "minecraft:set_lore",
-                            "lore": [{"text":"Teleport nearby Item and Experience","color":"dark_purple","italic":"false"}, {"text":"to the player in 12 blocks radius","color":"dark_purple","italic":"false"}, "", {"text":"Place in the Top Left/Right or Offhand slot","color":"green","italic":"false"}]
+                            "lore": [{"text":"Teleport nearby Item and Experience","color":"dark_purple","italic":"false"},{"text":"to the player in 12 blocks radius","color":"dark_purple","italic":"false"},{"text":"And limit to 16 entities","color":"dark_purple","italic":"false"},"",{"text":"Place in the Top Left/Right or Offhand slot","color":"green","italic":"false"}]
                         }
                     ]
                 }
