@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "stevekung:paper_from_maps"
+        ]
+    },
+    "criteria": {
+        "has_conditions": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:maps"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:paper_from_maps"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions",
+            "has_the_recipe"
+        ]
+    ]
+}
