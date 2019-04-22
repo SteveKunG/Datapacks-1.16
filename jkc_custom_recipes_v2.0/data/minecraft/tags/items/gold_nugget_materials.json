@@ -11,6 +11,7 @@
         "minecraft:golden_boots",
         "minecraft:golden_horse_armor",
         "minecraft:light_weighted_pressure_plate",
-        "minecraft:clock"
+        "minecraft:clock",
+        "minecraft:powered_rail"
     ]
 }
