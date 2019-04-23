@@ -2,7 +2,7 @@
 execute as @e[type=armor_stand,tag=trash_bin] at @s unless block ~ ~ ~ dropper[facing=down]{CustomName:'{"italic":false,"color":"dark_gray","text":"Trash Bin"}'} run function stevekung:trash_bin/merge
 
 # create trash bin
-execute as @e[type=item,scores={trashbin.ticks=1},nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s run function stevekung:trash_bin/create_trash_bin
+execute as @e[type=item,scores={trashbin.ticks=1},nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s unless entity @a[distance=..4] run function stevekung:trash_bin/create_trash_bin
 
 # run trash bin item ticks
 execute as @e[type=item,nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s if score @s trashbin.ticks = TrashBinTemp trashbin.ticks run scoreboard players set @s trashbin.ticks 20

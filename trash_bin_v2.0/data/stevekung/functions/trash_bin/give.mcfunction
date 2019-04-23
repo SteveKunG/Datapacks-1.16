@@ -1,0 +1,1 @@
+give @s iron_ingot{CustomModelData:2612,display:{Lore:['{"text":"Used to remove unused items","color":"gold","italic":false}','{"text":"Delete items every 10 seconds","color":"gold","italic":false}'],Name:'{"text":"Trash Bin","color":"dark_gray","italic":false}'},TrashBin:1b}
