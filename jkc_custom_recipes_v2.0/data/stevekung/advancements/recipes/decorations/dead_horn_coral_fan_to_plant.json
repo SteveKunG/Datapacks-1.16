@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:dead_horn_coral_fan_to_coral"
+            "stevekung:dead_horn_coral_fan_to_plant"
         ]
     },
     "criteria": {
@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:dead_horn_coral_fan_to_coral"
+                "recipe": "stevekung:dead_horn_coral_fan_to_plant"
             }
         }
     },
