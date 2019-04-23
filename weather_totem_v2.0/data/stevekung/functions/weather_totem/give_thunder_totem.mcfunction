@@ -1,0 +1,1 @@
+give @s totem_of_undying{CustomModelData:2553,display:{Lore:['{"text":"Raining IV","color":"gray","italic":"false"}','{"text":"Thunder V","color":"gray","italic":"false"}','""','{"text":"Create raining and thunder storm for 30 minutes","color":"green","italic":"false"}'],Name:'{"text":"Thunder Totem","color":"blue","italic":"false"}'},IsThunderTotem:1b}
