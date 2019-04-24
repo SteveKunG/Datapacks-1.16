@@ -1,8 +1,6 @@
 {
     "values": [
-        "stevekung:play_time_tracker/minutes_played",
-        "stevekung:play_time_tracker/hours_played",
-        "stevekung:play_time_tracker/days_played",
+        "stevekung:play_time_tracker/main",
         "stevekung:babyable_entities/main"
     ]
 }
