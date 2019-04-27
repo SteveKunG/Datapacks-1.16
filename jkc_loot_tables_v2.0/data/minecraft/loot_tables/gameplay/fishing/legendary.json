@@ -29,7 +29,8 @@
                         {
                             "function": "minecraft:enchant_randomly",
                             "enchantments": [
-                                "mending"
+                                "mending",
+                                "silk_touch"
                             ]
                         }
                     ]
