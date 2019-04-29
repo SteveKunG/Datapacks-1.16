@@ -1,0 +1,359 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 60,
+                    "name": "minecraft:cod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 25,
+                    "name": "minecraft:salmon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:tropical_fish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 13,
+                    "name": "minecraft:pufferfish"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 11,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:river"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:dark_forest"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:dark_forest_hills"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:jungle_hills"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:modified_jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:jungle_edge"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:modified_jungle_edge"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:bamboo_jungle"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:bamboo_jungle_hills"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:swamp"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:swamp_hills"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:weather_check",
+                                    "raining": true
+                                }
+                            ]
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:8102}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Catfish","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"An uncommon fish found in Streams, Jungle,","color":"gray","italic":false},{"text":"Dark Forest, Swamp and when it's raining!","color":"gray","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:cod"
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "weight": 6,
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "position": {
+                                            "y": {
+                                                "min": 2.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{CustomModelData:8100}"
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {"text":"Golden Fish","italic":false}
+                                },
+                                {
+                                    "function": "minecraft:set_lore",
+                                    "lore": [{"text":"A rare fish found in deep cave and Badlands","color":"gray","italic":false},{"text":"Can be used to craft gold block","color":"gray","italic":false}]
+                                }
+                            ],
+                            "name": "minecraft:gold_ingot"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:badlands_plateau",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_badlands_plateau",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:wooded_badlands_plateau",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:modified_wooded_badlands_plateau",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:eroded_badlands",
+                                                "position": {
+                                                    "y": {
+                                                        "min": 2.0,
+                                                        "max": 79.0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 3
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{CustomModelData:8100}"
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {"text":"Golden Fish","italic":false}
+                                },
+                                {
+                                    "function": "minecraft:set_lore",
+                                    "lore": [{"text":"A rare fish found in deep cave and Badlands","color":"gray","italic":false},{"text":"Can be used to craft gold block","color":"gray","italic":false}]
+                                }
+                            ],
+                            "name": "minecraft:gold_ingot"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:mountains",
+                                        "position": {
+                                            "y": {
+                                                "min": 4.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:wooded_mountains",
+                                        "position": {
+                                            "y": {
+                                                "min": 4.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:gravelly_mountains",
+                                        "position": {
+                                            "y": {
+                                                "min": 4.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:modified_gravelly_mountains",
+                                        "position": {
+                                            "y": {
+                                                "min": 4.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:mountain_edge",
+                                        "position": {
+                                            "y": {
+                                                "min": 4.0,
+                                                "max": 32.0
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:8101}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Emerald Fish","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"A rare fish found in deep cave in Mountains","color":"gray","italic":false},{"text":"Can be used to craft Emerald Block","color":"gray","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:emerald"
+                }
+            ]
+        }
+    ]
+}
