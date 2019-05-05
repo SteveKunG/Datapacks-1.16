@@ -56,9 +56,12 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:black_shulker_box",Count:1b}}] 
 # clear data from chests
 execute as @e[type=item,nbt={Item:{id:"minecraft:chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:clean_block_entity/remove_data
 execute as @e[type=item,nbt={Item:{id:"minecraft:trapped_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:clean_block_entity/remove_data
+execute as @e[type=item,nbt={Item:{id:"minecraft:ender_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:clean_block_entity/remove_data
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:clean_block_entity/remove_data
 execute as @e[type=item,nbt={Item:{id:"minecraft:trapped_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:clean_block_entity/remove_data
+execute as @e[type=item,nbt={Item:{id:"minecraft:ender_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:clean_block_entity/remove_data
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:clean_block_entity/remove_data
 execute as @e[type=item,nbt={Item:{id:"minecraft:trapped_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:clean_block_entity/remove_data
+execute as @e[type=item,nbt={Item:{id:"minecraft:ender_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:clean_block_entity/remove_data
