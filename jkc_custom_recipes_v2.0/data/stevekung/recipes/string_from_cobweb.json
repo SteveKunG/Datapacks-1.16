@@ -3,11 +3,11 @@
     "group": "string",
     "ingredients": [
         {
-            "tag": "minecraft:wool"
+            "item": "minecraft:cobweb"
         }
     ],
     "result": {
         "item": "minecraft:string",
-        "count": 4
+        "count": 9
     }
 }
