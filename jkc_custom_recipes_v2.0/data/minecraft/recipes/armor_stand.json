@@ -9,9 +9,14 @@
         "/": {
             "tag": "minecraft:sticks"
         },
-        "_": {
-            "item": "minecraft:smooth_stone_slab"
-        }
+        "_": [
+            {
+                "item": "minecraft:stone_slab"
+            },
+            {
+                "item": "minecraft:smooth_stone_slab"
+            }
+        ]
     },
     "result": {
         "item": "minecraft:armor_stand"
