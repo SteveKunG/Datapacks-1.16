@@ -9,8 +9,11 @@ execute as @e[type=item,nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s if score 
 execute as @e[type=item,nbt={Item:{tag:{TrashBin:1b},Count:1b}}] at @s if score @s trashbin.ticks > TrashBinTemp trashbin.ticks run scoreboard players remove @s trashbin.ticks 1
 
 # run trash bin delete ticks
-execute as @e[type=armor_stand,tag=trash_bin] at @s if score @s trashbin.dticks = TrashBinDeleteTemp trashbin.dticks run function stevekung:trash_bin/delete_items
-execute as @e[type=armor_stand,tag=trash_bin] at @s if score @s trashbin.dticks > TrashBinDeleteTemp trashbin.dticks run scoreboard players remove @s trashbin.dticks 1
+execute as @e[type=armor_stand,tag=trash_bin] at @s if data block ~ ~ ~ Items[] if score @s trashbin.dticks = TrashBinDeleteTemp trashbin.dticks run function stevekung:trash_bin/delete_items
+execute as @e[type=armor_stand,tag=trash_bin] at @s if data block ~ ~ ~ Items[] if score @s trashbin.dticks > TrashBinDeleteTemp trashbin.dticks run scoreboard players remove @s trashbin.dticks 1
+
+# reset delete ticks
+execute as @e[type=armor_stand,tag=trash_bin] at @s unless data block ~ ~ ~ Items[] if score @s trashbin.dticks > TrashBinDeleteTemp trashbin.dticks run scoreboard players set @s trashbin.dticks 200
 
 # add score to item
 execute as @e[type=item,nbt={Item:{tag:{TrashBin:1b},Count:1b}}] unless entity @s[scores={trashbin.ticks=0..20}] run scoreboard players set @s trashbin.ticks 0
