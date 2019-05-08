@@ -1,13 +1,18 @@
 # split ingredient
-execute as @e[type=item,nbt={Item:{tag:{IsIronBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run function stevekung:portable_beacon/split_beacon/iron
-execute as @e[type=item,nbt={Item:{tag:{IsGoldBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run function stevekung:portable_beacon/split_beacon/gold
-execute as @e[type=item,nbt={Item:{tag:{IsDiamondBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run function stevekung:portable_beacon/split_beacon/diamond
-execute as @e[type=item,nbt={Item:{tag:{IsEmeraldBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run function stevekung:portable_beacon/split_beacon/emerald
+execute as @e[type=item,nbt={Item:{tag:{IsIronBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:portable_beacon/split_beacon/iron
+execute as @e[type=item,nbt={Item:{tag:{IsGoldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:portable_beacon/split_beacon/gold
+execute as @e[type=item,nbt={Item:{tag:{IsDiamondBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:portable_beacon/split_beacon/diamond
+execute as @e[type=item,nbt={Item:{tag:{IsEmeraldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=1] run function stevekung:portable_beacon/split_beacon/emerald
 
-execute as @e[type=item,nbt={Item:{tag:{IsIronBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged_inherent run function stevekung:portable_beacon/split_beacon/iron
-execute as @e[type=item,nbt={Item:{tag:{IsGoldBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged_inherent run function stevekung:portable_beacon/split_beacon/gold
-execute as @e[type=item,nbt={Item:{tag:{IsDiamondBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged_inherent run function stevekung:portable_beacon/split_beacon/diamond
-execute as @e[type=item,nbt={Item:{tag:{IsEmeraldBeacon:1b}}}] at @s if block ~ ~ ~ #waterlogged_inherent run function stevekung:portable_beacon/split_beacon/emerald
+execute as @e[type=item,nbt={Item:{tag:{IsIronBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:portable_beacon/split_beacon/iron
+execute as @e[type=item,nbt={Item:{tag:{IsGoldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:portable_beacon/split_beacon/gold
+execute as @e[type=item,nbt={Item:{tag:{IsDiamondBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:portable_beacon/split_beacon/diamond
+execute as @e[type=item,nbt={Item:{tag:{IsEmeraldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=2] run function stevekung:portable_beacon/split_beacon/emerald
+
+execute as @e[type=item,nbt={Item:{tag:{IsIronBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:portable_beacon/split_beacon/iron
+execute as @e[type=item,nbt={Item:{tag:{IsGoldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:portable_beacon/split_beacon/gold
+execute as @e[type=item,nbt={Item:{tag:{IsDiamondBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:portable_beacon/split_beacon/diamond
+execute as @e[type=item,nbt={Item:{tag:{IsEmeraldBeacon:1b}}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:portable_beacon/split_beacon/emerald
 
 # ticks
 execute as @a[nbt=!{Inventory:[{tag:{SpeedBeacon:1b,HasApplyRegen:0b}}]},gamemode=!spectator] at @s if score @s pb_speed.ticks > PortableBeaconTemp pb_speed.ticks run scoreboard players set @s pb_speed.ticks 0
