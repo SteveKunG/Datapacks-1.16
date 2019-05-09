@@ -11,39 +11,44 @@
                             "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "item": "minecraft:wooden_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Wooden Hammer\\\"}\"}}"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "item": "minecraft:stone_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Stone Hammer\\\"}\"}}"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "item": "minecraft:iron_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Iron Hammer\\\"}\"}}"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "item": "minecraft:golden_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Golden Hammer\\\"}\"}}"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "item": "minecraft:diamond_pickaxe",
-                                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Hammer\\\"}\"}}"
-                                    }
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:wooden_pickaxe",
+                                                "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Wooden Hammer\\\"}\"}}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:stone_pickaxe",
+                                                "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Stone Hammer\\\"}\"}}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:iron_pickaxe",
+                                                "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Iron Hammer\\\"}\"}}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:golden_pickaxe",
+                                                "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Golden Hammer\\\"}\"}}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "item": "minecraft:diamond_pickaxe",
+                                                "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Diamond Hammer\\\"}\"}}"
+                                            }
+                                        }
+                                    ]
                                 }
                             ],
                             "name": "minecraft:gravel"
