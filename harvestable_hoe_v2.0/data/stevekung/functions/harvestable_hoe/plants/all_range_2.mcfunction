@@ -1,0 +1,5 @@
+function stevekung:harvestable_hoe/plants/carrots_range_2
+function stevekung:harvestable_hoe/plants/potatoes_range_2
+function stevekung:harvestable_hoe/plants/wheat_range_2
+function stevekung:harvestable_hoe/plants/beetroots_range_2
+function stevekung:harvestable_hoe/plants/nether_warts_range_2

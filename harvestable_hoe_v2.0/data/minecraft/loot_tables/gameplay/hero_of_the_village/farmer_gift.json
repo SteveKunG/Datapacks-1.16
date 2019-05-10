@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_pie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie"
+                },
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost:39,AutoHarvest:1b,HarvestRange:1,CustomModelData:2622}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Auto Hoe","color":"red","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"Harvest plants in 1x1 area","color":"gray","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:diamond_hoe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.15
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost:39,AutoHarvest:1b,HarvestRange:2,CustomModelData:2622}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Auto Hoe","color":"red","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"Harvest plants in 2x2 area","color":"gray","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:diamond_hoe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.01
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RepairCost:39,AutoHarvest:1b,HarvestRange:3,CustomModelData:2622}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Auto Hoe","color":"red","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"Harvest plants in 3x3 area","color":"gray","italic":false},"",{"text":"[Special]","color":"gold","bold":true,"italic":false},{"text":"Can harvest Sugar Cane","color":"blue","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:diamond_hoe"
+                }
+            ]
+        }
+    ]
+}
