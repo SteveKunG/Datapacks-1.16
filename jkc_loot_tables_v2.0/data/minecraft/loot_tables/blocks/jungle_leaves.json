@@ -149,7 +149,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:8200}"
+                            "tag": "{JKCCustomFood:1b,CustomModelData:8200}"
                         },
                         {
                             "function": "minecraft:set_name",
