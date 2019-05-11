@@ -18,7 +18,7 @@ execute as @a if score @s harv_hoe.cooldwn > HoeCooldownTmp harv_hoe.cooldwn run
 
 # check score
 execute as @a unless score @s harv_hoe.cooldwn matches 0..72000 run scoreboard players set @s harv_hoe.cooldwn 0
-execute as @a unless score @s harv_hoe.dmg matches 0..32767 run scoreboard players set @s harv_hoe.dmg 0
+execute as @a unless score @s harv_hoe.dmg matches 0..12288 run scoreboard players set @s harv_hoe.dmg 0
 
 # show durability
 execute as @a[nbt={SelectedItem:{tag:{AutoHarvest:1b}}}] run title @s actionbar [{"text":"Auto Hoe Durability: "},{"score":{"name":"@s","objective":"harv_hoe.dmg"},"color":"green"}]
