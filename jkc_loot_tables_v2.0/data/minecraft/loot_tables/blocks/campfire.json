@@ -49,8 +49,8 @@
                                     "tag": "{BlockStateTag:{lit:\"false\"},CustomModelData:8003}"
                                 },
                                 {
-                                    "function": "minecraft:set_lore",
-                                    "lore": [{"text":"Unlit","color":"gray","italic":false}]
+                                    "function": "minecraft:set_name",
+                                    "name": {"text":"Unlit Campfire","italic":false}
                                 }
                             ],
                             "name": "minecraft:campfire"
