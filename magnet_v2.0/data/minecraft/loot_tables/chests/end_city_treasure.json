@@ -324,7 +324,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{IsMagnet:1b,CustomModelData:2542,Enchantments:[{}]}"
+                            "tag": "{IsMagnet:1b,CustomModelData:2542,Enchantments:[{id:\"mending\",lvl:1}],HideFlags:1}"
                         },
                         {
                             "function": "minecraft:set_name",
