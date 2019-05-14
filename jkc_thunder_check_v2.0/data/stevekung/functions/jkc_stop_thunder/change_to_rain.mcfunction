@@ -1,0 +1,2 @@
+weather rain
+kill @s
