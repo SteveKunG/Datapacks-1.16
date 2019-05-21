@@ -2,17 +2,47 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 1.0,
+            "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "function": "minecraft:fill_player_head",
-                            "entity": "this"
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:fill_player_head",
+                                    "entity": "this"
+                                },
+                                {
+                                    "function": "set_lore",
+                                    "lore": [{"text": "Killed by: ","color":"gray","italic":false},{"selector": "@s","color":"red","italic":false}],
+                                    "entity": "killer"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "damage_source_properties",
+                                    "predicate": {
+                                        "source_entity": {
+                                            "type": "minecraft:player"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:fill_player_head",
+                                    "entity": "this"
+                                }
+                            ],
+                            "name": "minecraft:player_head"
                         }
-                    ],
-                    "name": "minecraft:player_head"
+                    ]
                 }
             ]
         }
