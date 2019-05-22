@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:hopper_minecart",
+            "stevekung:hopper_minecart"
+        ]
+    },
+    "criteria": {
+        "has_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:minecart"
+                    },
+                    {
+                        "item": "minecraft:hopper"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:hopper_minecart"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:hopper_minecart"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_minecart",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}

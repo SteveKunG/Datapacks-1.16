@@ -3,11 +3,14 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "XXX",
-        "X X"
+        "XSX"
     ],
     "key": {
         "X": {
-            "item": "minecraft:purpur_block"
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "S": {
+            "item": "minecraft:nautilus_shell"
         }
     },
     "result": {

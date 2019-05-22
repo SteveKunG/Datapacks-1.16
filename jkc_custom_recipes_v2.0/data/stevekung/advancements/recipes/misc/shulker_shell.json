@@ -2,6 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
+            "stevekung:shulker_shell_1",
             "stevekung:shulker_shell_2"
         ]
     },
@@ -11,12 +12,18 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_block"
+                        "item": "minecraft:popped_chorus_fruit"
                     }
                 ]
             }
         },
-        "has_the_recipe": {
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:shulker_shell_1"
+            }
+        },
+        "has_the_recipe2": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
                 "recipe": "stevekung:shulker_shell_2"
@@ -26,7 +33,8 @@
     "requirements": [
         [
             "has_conditions",
-            "has_the_recipe"
+            "has_the_recipe1",
+            "has_the_recipe2"
         ]
     ]
 }

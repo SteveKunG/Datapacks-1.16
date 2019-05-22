@@ -1,0 +1,20 @@
+{    
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PFP",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:pumpkin"
+        },
+        "F": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "minecraft:carved_pumpkin",
+        "count": 8
+    }
+}

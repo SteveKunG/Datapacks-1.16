@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:repeater",
+            "stevekung:repeater"
+        ]
+    },
+    "criteria": {
+        "has_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone_torch"
+                    },
+                    {
+                        "item": "minecraft:redstone"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:repeater"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:repeater"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_redstone",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}

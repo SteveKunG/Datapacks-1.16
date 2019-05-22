@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:hopper",
+            "stevekung:hopper"
+        ]
+    },
+    "criteria": {
+        "has_iron_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:hopper"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:hopper"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_iron_ingot",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}

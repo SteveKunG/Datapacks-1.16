@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:shulker_shell_1"
+            "stevekung:carved_pumpkin"
         ]
     },
     "criteria": {
@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:purpur_block"
+                        "item": "minecraft:pumpkin"
                     }
                 ]
             }
@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:shulker_shell_1"
+                "recipe": "stevekung:carved_pumpkin"
             }
         }
     },

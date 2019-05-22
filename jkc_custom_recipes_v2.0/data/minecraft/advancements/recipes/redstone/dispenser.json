@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:dispenser",
+            "stevekung:dispenser"
+        ]
+    },
+    "criteria": {
+        "has_bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow"
+                    },
+                    {
+                        "item": "minecraft:dropper"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:dispenser"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:dispenser"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bow",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}
