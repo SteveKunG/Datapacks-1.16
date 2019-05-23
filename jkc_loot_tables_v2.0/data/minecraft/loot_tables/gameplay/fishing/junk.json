@@ -206,6 +206,56 @@
                     ],
                     "weight": 10,
                     "name": "minecraft:bamboo"
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:warm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:deep_warm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 7,
+                    "type": "minecraft:tag",
+                    "name": "minecraft:live_corals",
+                    "expand": true
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:beach"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "biome": "minecraft:stone_shore"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 10,
+                    "type": "minecraft:tag",
+                    "name": "minecraft:dead_corals",
+                    "expand": true
                 }
             ]
         }
