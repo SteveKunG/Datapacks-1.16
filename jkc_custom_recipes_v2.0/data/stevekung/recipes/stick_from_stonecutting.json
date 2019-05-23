@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "minecraft:planks"
+    },
+    "result": "minecraft:stick",
+    "count": 2
+}
