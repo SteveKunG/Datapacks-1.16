@@ -1,17 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "stripped_bark",
     "pattern": [
-        "##",
-        "##"
+        "XXX",
+        "XFX",
+        "XXX"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:stripped_spruce_log"
+        "X": {
+            "item": "minecraft:spruce_wood"
+        },
+        "F": {
+            "item": "minecraft:flint"
         }
     },
     "result": {
         "item": "minecraft:stripped_spruce_wood",
-        "count": 4
+        "count": 8
     }
 }

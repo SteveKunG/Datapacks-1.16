@@ -7,14 +7,14 @@
     ],
     "key": {
         "X": {
-            "item": "minecraft:acacia_wood"
+            "item": "minecraft:acacia_log"
         },
         "F": {
             "item": "minecraft:flint"
         }
     },
     "result": {
-        "item": "minecraft:stripped_acacia_wood",
+        "item": "minecraft:stripped_acacia_log",
         "count": 8
     }
 }

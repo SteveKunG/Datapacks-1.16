@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:stripped_jungle_wood"
+            "stevekung:stripped_spruce_log"
         ]
     },
     "criteria": {
@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:jungle_wood"
+                        "item": "minecraft:spruce_log"
                     }
                 ]
             }
@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:stripped_jungle_wood"
+                "recipe": "stevekung:stripped_spruce_log"
             }
         }
     },
