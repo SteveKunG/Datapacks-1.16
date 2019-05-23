@@ -1,15 +1,17 @@
 {    
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "group": "block_from_stairs",
-    "pattern": [
-        "XX",
-        "XX"
-    ],
-    "key": {
-        "X": {
+    "ingredients": [
+        {
+            "item": "minecraft:prismarine_stairs"
+        },
+        {
+            "item": "minecraft:prismarine_stairs"
+        },
+        {
             "item": "minecraft:prismarine_stairs"
         }
-    },
+    ],
     "result": {
         "item": "minecraft:prismarine",
         "count": 3

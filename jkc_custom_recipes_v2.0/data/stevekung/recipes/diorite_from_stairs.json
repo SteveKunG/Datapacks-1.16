@@ -1,15 +1,17 @@
 {    
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "group": "block_from_stairs",
-    "pattern": [
-        "XX",
-        "XX"
-    ],
-    "key": {
-        "X": {
+    "ingredients": [
+        {
+            "item": "minecraft:diorite_stairs"
+        },
+        {
+            "item": "minecraft:diorite_stairs"
+        },
+        {
             "item": "minecraft:diorite_stairs"
         }
-    },
+    ],
     "result": {
         "item": "minecraft:diorite",
         "count": 3

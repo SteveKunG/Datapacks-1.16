@@ -1,15 +1,17 @@
 {    
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "group": "block_from_stairs",
-    "pattern": [
-        "XX",
-        "XX"
-    ],
-    "key": {
-        "X": {
+    "ingredients": [
+        {
+            "item": "minecraft:brick_stairs"
+        },
+        {
+            "item": "minecraft:brick_stairs"
+        },
+        {
             "item": "minecraft:brick_stairs"
         }
-    },
+    ],
     "result": {
         "item": "minecraft:bricks",
         "count": 3

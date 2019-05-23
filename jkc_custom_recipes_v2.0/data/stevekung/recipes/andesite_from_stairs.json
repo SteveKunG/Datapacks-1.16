@@ -1,15 +1,17 @@
 {    
-    "type": "minecraft:crafting_shaped",
+    "type": "minecraft:crafting_shapeless",
     "group": "block_from_stairs",
-    "pattern": [
-        "XX",
-        "XX"
-    ],
-    "key": {
-        "X": {
+    "ingredients": [
+        {
+            "item": "minecraft:andesite_stairs"
+        },
+        {
+            "item": "minecraft:andesite_stairs"
+        },
+        {
             "item": "minecraft:andesite_stairs"
         }
-    },
+    ],
     "result": {
         "item": "minecraft:andesite",
         "count": 3
