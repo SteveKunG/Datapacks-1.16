@@ -15,6 +15,10 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b},Age:100s
 scoreboard players enable @a despawner.trigg
 execute as @a[scores={despawner.trigg=1..}] at @s run function stevekung:mob_despawner/trigger
 
+# glow entity around
+execute at @e[type=armor_stand,tag=mob_despawner] run execute as @e[type=armor_stand,tag=despawner_decor,limit=4,distance=..5] if score @s despawner.gticks matches 1.. run effect give @e[tag=!despawner_decor,distance=..64] glowing 1 0 true
+execute at @e[type=armor_stand,tag=mini_mob_despawner] run execute as @e[type=armor_stand,tag=despawner_decor,limit=4,distance=..5] if score @s despawner.gticks matches 1.. run effect give @e[tag=!despawner_decor,distance=..32] glowing 1 0 true
+
 # destroy if invalid
 execute as @e[type=armor_stand,tag=mob_despawner] at @s unless block ~ ~1 ~ end_rod[facing=down] run function stevekung:mob_despawner/destruction_64
 execute as @e[type=armor_stand,tag=mob_despawner] at @s unless block ~ ~ ~ end_rod[facing=up] run function stevekung:mob_despawner/destruction_64
