@@ -10,5 +10,5 @@ scoreboard objectives remove despawner.trigg
 scoreboard players reset MobDespawnTicksTmp despawner.ticks
 scoreboard players reset CMobDespawnTicksTmp cdespawner.ticks
 scoreboard players reset MobDespawnTicksTmp despawner.sticks
-datapack disable "file/mob_despawner_v2.0"
-datapack disable "file/mob_despawner_v2.0.zip"
+datapack disable "file/mob_despawner_v2.1"
+datapack disable "file/mob_despawner_v2.1.zip"
