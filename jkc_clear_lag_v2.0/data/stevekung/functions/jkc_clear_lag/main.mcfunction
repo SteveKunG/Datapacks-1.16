@@ -3,8 +3,8 @@ execute as @e[type=armor_stand,tag=spawn,limit=1] run function stevekung:jkc_cle
 execute as @e[type=armor_stand,tag=spawn,limit=1] if score @s jkc_lag.ticks = ClearLagTmpBase jkc_lag.ticks run function stevekung:jkc_clear_lag/clear_lag
 
 # instant kill
-kill @e[type=#minecraft:despawnable_projectiles,nbt={pickup:0b,inGround:1b}]
-kill @e[type=#minecraft:despawnable_projectiles,nbt={pickup:2b,inGround:1b}]
+kill @e[type=#minecraft:despawnable_projectiles,nbt={pickup:0b,inGround:1b,life:100s}]
+kill @e[type=#minecraft:despawnable_projectiles,nbt={pickup:2b,inGround:1b,life:100s}]
 
 # message
 execute as @e[type=armor_stand,tag=spawn,limit=1,scores={jkc_lag.second=60,jkc_lag.ticks=1200}] run tellraw @a [{"text":"[ClearLag]","color":"red","bold":true}," ",{"text":"Delete entities in 60 seconds!","color":"dark_red","bold":false}]
