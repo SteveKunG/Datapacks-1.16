@@ -99,7 +99,7 @@ execute as @e[type=armor_stand,tag=mini_mob_despawner] unless entity @s[scores={
 ###### creative ######
 
 # despawn mobs
-execute as @e[type=armor_stand,tag=mob_despawner_creative,scores={cdespawner.ticks=0}] at @s run function stevekung:mob_despawner/despawning_entities
+execute as @e[type=armor_stand,tag=mob_despawner_creative,scores={cdespawner.ticks=0}] at @s run function stevekung:mob_despawner/despawning_entities_64
 
 # mob despawner ticks
 execute as @e[type=armor_stand,tag=mob_despawner_creative] at @s if score @s cdespawner.ticks = CMobDespawnTicksTmp cdespawner.ticks run scoreboard players set @s cdespawner.ticks 20
