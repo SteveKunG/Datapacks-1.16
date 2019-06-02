@@ -8,5 +8,5 @@ scoreboard objectives remove pb_haste_r.ticks
 scoreboard objectives remove pb_resis_r.ticks
 scoreboard objectives remove pb_jump_r.ticks
 scoreboard objectives remove pb_str_r.ticks
-datapack disable "file/portable_beacon_v2.0"
-datapack disable "file/portable_beacon_v2.0.zip"
+datapack disable "file/portable_beacon_v2.1"
+datapack disable "file/portable_beacon_v2.1.zip"
