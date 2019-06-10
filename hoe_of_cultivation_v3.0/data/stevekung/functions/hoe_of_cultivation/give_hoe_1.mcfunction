@@ -1,0 +1,1 @@
+give @p diamond_hoe{HarvestRange:1,AutoHarvest:1b,RepairCost:39,CustomModelData:2622,display:{Lore:['{"italic":false,"color":"gray","text":"Harvest plants in 1x1 area"}'],Name:'{"italic":false,"color":"red","text":"Hoe of Cultivation"}'}}

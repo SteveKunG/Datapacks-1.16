@@ -1,0 +1,6 @@
+function stevekung:hoe_of_cultivation/plants/carrots_range_3
+function stevekung:hoe_of_cultivation/plants/potatoes_range_3
+function stevekung:hoe_of_cultivation/plants/wheat_range_3
+function stevekung:hoe_of_cultivation/plants/beetroots_range_3
+function stevekung:hoe_of_cultivation/plants/nether_warts_range_3
+execute unless block ~ ~ ~ water run function stevekung:hoe_of_cultivation/plants/sugar_cane_range_3
