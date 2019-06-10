@@ -1,6 +1,3 @@
-# run loop
-schedule function stevekung:concrete_powder_to_concrete/main 20t
-
 # waterlogged
 execute as @e[type=item,nbt={Item:{id:"minecraft:white_concrete_powder"}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run data modify entity @s Item.id set value "white_concrete"
 execute as @e[type=item,nbt={Item:{id:"minecraft:orange_concrete_powder"}}] at @s if block ~ ~ ~ #waterlogged[waterlogged=true] run data modify entity @s Item.id set value "orange_concrete"
@@ -36,3 +33,6 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:brown_concrete_powder"}}] at @s
 execute as @e[type=item,nbt={Item:{id:"minecraft:green_concrete_powder"}}] at @s if block ~ ~ ~ #waterlogged_inherent run data modify entity @s Item.id set value "green_concrete"
 execute as @e[type=item,nbt={Item:{id:"minecraft:red_concrete_powder"}}] at @s if block ~ ~ ~ #waterlogged_inherent run data modify entity @s Item.id set value "red_concrete"
 execute as @e[type=item,nbt={Item:{id:"minecraft:black_concrete_powder"}}] at @s if block ~ ~ ~ #waterlogged_inherent run data modify entity @s Item.id set value "black_concrete"
+
+# run loop
+schedule function stevekung:concrete_powder_to_concrete/main_schedule 20t
