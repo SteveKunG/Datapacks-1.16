@@ -1,0 +1,8 @@
+{
+    "values": [
+        "stevekung:mob_despawner/setup",
+        "stevekung:mob_despawner/main_schedule",
+        "stevekung:mob_despawner/despawner_schedule",
+        "stevekung:mob_despawner/despawner_sound_schedule"
+    ]
+}

@@ -1,2 +1,0 @@
-execute align xyz run summon armor_stand ~0.5 ~-1 ~0.5 {Tags:["mob_despawner_creative"],Marker:1b,NoGravity:1b,Invisible:1b,Small:1b}
-scoreboard players set @e[type=armor_stand,tag=mob_despawner_creative,distance=..3] cdespawner.ticks 0
