@@ -65,3 +65,6 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:ender_chest",Count:1b}}] at @s 
 execute as @e[type=item,nbt={Item:{id:"minecraft:chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:clean_block_entity/remove_data
 execute as @e[type=item,nbt={Item:{id:"minecraft:trapped_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run function stevekung:clean_block_entity/remove_data
 execute as @e[type=item,nbt={Item:{id:"minecraft:ender_chest",Count:1b}}] at @s if block ~ ~ ~ cauldron[level=3] run data remove entity @s Item.tag
+
+# run loop
+schedule function stevekung:clean_block_entity/main_schedule 20t
