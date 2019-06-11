@@ -8,5 +8,5 @@ scoreboard objectives remove DivideHours
 scoreboard objectives remove DaysPlayed
 scoreboard objectives remove DaysPlayedTmp
 scoreboard objectives remove DivideDays
-datapack disable "file/jkc_miscellaneous_v2.0"
-datapack disable "file/jkc_miscellaneous_v2.0.zip"
+datapack disable "file/jkc_miscellaneous_v3.0"
+datapack disable "file/jkc_miscellaneous_v3.0.zip"

@@ -4,7 +4,6 @@
         "minecraft:zombie_villager",
         "minecraft:zombie_pigman",
         "minecraft:drowned",
-        "minecraft:husk",
-        "minecraft:giant"
+        "minecraft:husk"
     ]
 }
