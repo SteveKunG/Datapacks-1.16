@@ -1,0 +1,10 @@
+{
+    "values": [
+        "stevekung:portable_beacon/recipes/compressed_beacon",
+        "stevekung:portable_beacon/recipes/haste_beacon",
+        "stevekung:portable_beacon/recipes/jump_boost_beacon",
+        "stevekung:portable_beacon/recipes/resistance_beacon",
+        "stevekung:portable_beacon/recipes/speed_beacon",
+        "stevekung:portable_beacon/recipes/strength_beacon"
+    ]
+}
