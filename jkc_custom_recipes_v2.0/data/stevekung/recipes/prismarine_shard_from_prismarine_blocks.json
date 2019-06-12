@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:prismarine_bricks"
+            "tag": "minecraft:prismarine_blocks"
         }
     ],
     "result": {
         "item": "minecraft:prismarine_shard",
-        "count": 9
+        "count": 4
     }
 }
