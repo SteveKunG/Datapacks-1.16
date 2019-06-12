@@ -70,7 +70,7 @@
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
-                                    "tag": "{SpawnXP:1}"
+                                    "tag": "{XpValue:1}"
                                 }
                             ],
                             "name": "minecraft:stone"

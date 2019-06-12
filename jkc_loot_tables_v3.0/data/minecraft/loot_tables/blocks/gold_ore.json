@@ -24,7 +24,7 @@
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
-                                    "tag": "{SpawnXP:5}"
+                                    "tag": "{XpValue:5}"
                                 }
                             ],
                             "name": "minecraft:gold_ingot"
