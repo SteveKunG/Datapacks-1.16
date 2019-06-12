@@ -15,12 +15,28 @@
                                     "predicate": {
                                         "nbt": "{Smelting:1b}"
                                     }
+                                },
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.4
                                 }
                             ],
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
                                     "tag": "{SpawnXP:1}"
+                                }
+                            ],
+                            "name": "minecraft:cyan_glazed_terracotta"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "nbt": "{Smelting:1b}"
+                                    }
                                 }
                             ],
                             "name": "minecraft:cyan_glazed_terracotta"
