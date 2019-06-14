@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "stevekung:glass_from_glass_pane"
+            "stevekung:glass"
         ]
     },
     "criteria": {
-        "has_conditions": {
+        "has_glass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:glass_pane"
+                        "tag": "minecraft:colored_glasses"
                     }
                 ]
             }
@@ -19,13 +19,13 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "stevekung:glass_from_glass_pane"
+                "recipe": "stevekung:glass"
             }
         }
     },
     "requirements": [
         [
-            "has_conditions",
+            "has_glass",
             "has_the_recipe"
         ]
     ]
