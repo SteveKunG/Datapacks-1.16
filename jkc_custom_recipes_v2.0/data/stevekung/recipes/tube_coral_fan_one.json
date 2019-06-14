@@ -6,7 +6,7 @@
             "item": "minecraft:dead_tube_coral_fan"
         },
         {
-            "item": "minecraft:water_bucket"
+            "tag": "minecraft:water_containers"
         }
     ],
     "result": {

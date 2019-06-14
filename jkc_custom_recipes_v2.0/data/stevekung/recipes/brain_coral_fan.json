@@ -11,7 +11,7 @@
             "item": "minecraft:dead_brain_coral_fan"
         },
         "W": {
-            "item": "minecraft:water_bucket"
+            "tag": "minecraft:water_containers"
         }
     },
     "result": {
