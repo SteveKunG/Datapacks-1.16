@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:water_bucket"
+            "tag": "minecraft:water_containers"
         },
         {
             "item": "minecraft:dirt"
