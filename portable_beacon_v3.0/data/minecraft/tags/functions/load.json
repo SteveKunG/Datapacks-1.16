@@ -1,6 +1,6 @@
 {
     "values": [
-        "stevekung:portable_beacon/setup",
-        "stevekung:portable_beacon/main_schedule"
+        "stevekung:portable_beacon/main_schedule",
+        "stevekung:portable_beacon/main_beacon_ticks_schedule"
     ]
 }
