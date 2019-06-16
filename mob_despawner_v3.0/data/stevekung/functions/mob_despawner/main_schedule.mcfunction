@@ -28,6 +28,7 @@ execute as @e[type=armor_stand,tag=mob_despawner_base] unless entity @s[scores={
 ###### creative ######
 # despawn mobs
 execute as @e[type=armor_stand,tag=mob_despawner_creative] at @s run function stevekung:mob_despawner/despawning_entities_64
+execute as @e[type=armor_stand,tag=bat_despawner] at @s run execute as @e[type=bat,distance=..64] unless data entity @s CustomName run tp @s ~ ~-200 ~
 
 # run loop
 schedule function stevekung:mob_despawner/main_schedule 20t
