@@ -12,7 +12,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_hoe",tag:{AutoHarvest:1b,
 execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_hoe",tag:{AutoHarvest:1b,HarvestRange:3}}}] at @s run function stevekung:hoe_of_cultivation/plants/all_range_3
 
 # show durability
-execute as @a[nbt={SelectedItem:{tag:{AutoHarvest:1b}}}] run title @s actionbar [{"text":"Auto Hoe Durability: "},{"score":{"name":"@s","objective":"harv_hoe.dmg"},"color":"green"}]
+execute as @a[nbt={SelectedItem:{id:"minecraft:diamond_hoe",tag:{AutoHarvest:1b}}}] run title @s actionbar [{"text":"Auto Hoe Durability: "},{"score":{"name":"@s","objective":"harv_hoe.dmg"},"color":"green"}]
 
 # reset durability if get a hero of the village
 execute as @a if score @s harv_hoe.cooldwn > HoeCooldownTmp harv_hoe.cooldwn run scoreboard players remove @s harv_hoe.cooldwn 1
