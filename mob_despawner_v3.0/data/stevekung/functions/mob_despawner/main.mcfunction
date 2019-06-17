@@ -9,17 +9,8 @@ execute as @e[type=armor_stand,tag=mini_mob_despawner] at @s unless block ~ ~ ~ 
 execute as @e[type=armor_stand,tag=mini_mob_despawner] at @s unless block ~ ~-1 ~ iron_block run function stevekung:mob_despawner/destruction_32
 execute as @e[type=armor_stand,tag=mini_mob_despawner] at @s unless block ~ ~-2 ~ gold_block run function stevekung:mob_despawner/destruction_32
 
-# rotate mob despawner
-execute as @e[type=armor_stand,tag=mob_despawner_base,scores={despawner.enable=1}] at @s run tp @s ~ ~ ~ ~3 ~
-
-# mob despawner glow ticks
-execute as @e[type=armor_stand,tag=mob_despawner_base] if score @s despawner.gticks = MobDespawnGlowTicksTmp despawner.gticks run function stevekung:mob_despawner/uncheck_nearest
-execute as @e[type=armor_stand,tag=mob_despawner_base] if score @s despawner.gticks > MobDespawnGlowTicksTmp despawner.gticks run scoreboard players remove @s despawner.gticks 1
-
-# despawner particle
-execute as @e[type=armor_stand,tag=mob_despawner_base,scores={despawner.enable=1}] at @s anchored eyes run particle happy_villager ^ ^0.1 ^1.5 0 0 0 2 2
-execute as @e[type=armor_stand,tag=mob_despawner_base,scores={despawner.enable=1}] at @s anchored eyes run particle happy_villager ^ ^0.1 ^1 0 0 0 2 1
-execute as @e[type=armor_stand,tag=mob_despawner_base,scores={despawner.enable=1}] at @s anchored eyes run particle happy_villager ^ ^0.1 ^0.5 0 0 0 2 1
+# run mob despawner base ticks
+execute as @e[type=armor_stand,tag=mob_despawner_base] run function stevekung:mob_despawner/despawner_base_ticks
 
 ###### creative ######
 # particle
