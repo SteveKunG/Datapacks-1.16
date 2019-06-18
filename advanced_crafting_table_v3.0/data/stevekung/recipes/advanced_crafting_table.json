@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R",
+        "D",
+        "C"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "D": {
+            "item": "minecraft:dropper"
+        },
+        "C": {
+            "item": "minecraft:crafting_table"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper"
+    }
+}
