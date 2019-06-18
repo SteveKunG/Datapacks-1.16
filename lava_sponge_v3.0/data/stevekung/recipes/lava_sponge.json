@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B",
+        "S",
+        "M"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:blaze_powder"
+        },
+        "S": {
+            "item": "minecraft:wet_sponge"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:wet_sponge"
+    }
+}

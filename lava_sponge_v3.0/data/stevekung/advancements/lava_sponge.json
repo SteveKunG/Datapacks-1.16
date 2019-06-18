@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stevekung:lava_sponge"
+			}
+		}
+	},
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"function": "stevekung:lava_sponge/lava_sponge"
+	}
+}

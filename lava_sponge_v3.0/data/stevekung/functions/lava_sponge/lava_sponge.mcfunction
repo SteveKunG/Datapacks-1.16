@@ -1,2 +1,4 @@
-# craft lava sponge
-execute if block ~ ~ ~ dropper[facing=down]{CustomName:'{"italic":false,"color":"blue","text":"Advanced Crafting Table"}',Items:[{Slot:1b,id:"minecraft:magma_block",Count:1b},{Slot:4b,id:"minecraft:wet_sponge",Count:1b},{Slot:7b,id:"minecraft:blaze_powder",Count:1b}]} run data merge block ~ ~ ~ {Items:[{id:"minecraft:iron_ingot",Count:1b,Slot:4b,tag:{IsLavaSponge:1b,CustomModelData:2582,Enchantments:[{id:"mending",lvl:1}],HideFlags:1,display:{Name:'{"text":"Lava Sponge","color":"gold","italic":"false"}',Lore:['{"text":"Used by throwing into lava","color":"red","italic":"false"}']}}}]}
+clear @s wet_sponge 1
+function stevekung:lava_sponge/give
+advancement revoke @s only stevekung:lava_sponge
+recipe take @s stevekung:lava_sponge
