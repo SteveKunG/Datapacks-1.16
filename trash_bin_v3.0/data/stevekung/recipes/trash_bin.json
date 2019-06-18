@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "E",
+        "D"
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "D": {
+            "item": "minecraft:dropper"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper"
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stevekung:trash_bin"
+			}
+		}
+	},
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"function": "stevekung:trash_bin/trash_bin"
+	}
+}
