@@ -1,0 +1,22 @@
+{
+    "parent": "stevekung:jkc_custom_food/root",
+    "rewards": {
+        "function": "stevekung:jkc_custom_food/fruit/starfruit"
+    },
+    "criteria": {
+        "starfruit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:apple",
+                    "nbt": "{JKCCustomFood:1b,CustomModelData:8200}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "starfruit"
+        ]
+    ]
+}
