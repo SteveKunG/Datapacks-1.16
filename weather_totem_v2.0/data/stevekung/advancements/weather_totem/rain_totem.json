@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "function": "stevekung:weather_totem/summon_rain"
+    },
+    "criteria": {
+        "rain_totem": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying",
+                    "nbt": "{IsRainTotem:1b}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rain_totem"
+        ]
+    ]
+}
