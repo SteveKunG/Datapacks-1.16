@@ -1,5 +1,5 @@
 {
-    "parent": "stevekung:jkc_custom_food/root",
+    "parent": "minecraft:recipes/root",
     "rewards": {
         "function": "stevekung:jkc_custom_food/fruit/pear"
     },
