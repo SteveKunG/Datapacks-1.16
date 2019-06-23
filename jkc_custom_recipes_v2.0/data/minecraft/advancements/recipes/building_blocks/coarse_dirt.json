@@ -1,0 +1,40 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:coarse_dirt",
+            "stevekung:coarse_dirt"
+        ]
+    },
+    "criteria": {
+        "has_gravel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gravel"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:coarse_dirt"
+            }
+        },
+        "has_the_recipe2": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stevekung:coarse_dirt"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_gravel",
+            "has_the_recipe1",
+            "has_the_recipe2"
+        ]
+    ]
+}

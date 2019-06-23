@@ -1,0 +1,16 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "group": "coarse_dirt",
+    "ingredients": [
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:gravel"
+        }
+    ],
+    "result": {
+        "item": "minecraft:coarse_dirt",
+        "count": 2
+    }
+}
