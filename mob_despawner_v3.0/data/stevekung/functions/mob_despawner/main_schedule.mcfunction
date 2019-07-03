@@ -17,7 +17,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] at @s 
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] at @s if entity @e[type=armor_stand,tag=mini_mob_despawner,distance=..32] if entity @e[type=item,nbt={Item:{id:"minecraft:iron_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ iron_bars if block ~ ~-2 ~ iron_bars if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ gold_block run title @a[distance=..8] actionbar {"text":"Cannot build! Other nearby mini mob despawner detected.","color":"red"}
 
 # glow entity around
-execute as @e[type=armor_stand,tag=mob_despawner_base] at @s if score @s despawner.gticks matches 1.. run effect give @e[tag=!mob_despawner_base,distance=..64] glowing 2 0 true
+execute as @e[type=armor_stand,tag=mob_despawner] at @s if score @s despawner.gticks matches 1.. run effect give @e[tag=!mob_despawner_base,distance=..64] glowing 2 0 true
+execute as @e[type=armor_stand,tag=mini_mob_despawner] at @s if score @s despawner.gticks matches 1.. run effect give @e[tag=!mob_despawner_base,distance=..32] glowing 2 0 true
 
 # fix score if entity unloaded
 execute as @e[type=armor_stand,tag=mob_despawner_base] unless entity @s[scores={despawner.x=-30000000..30000000}] run execute store result score @s despawner.x run data get entity @s Pos[0]
