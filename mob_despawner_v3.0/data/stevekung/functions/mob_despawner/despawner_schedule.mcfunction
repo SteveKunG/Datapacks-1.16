@@ -6,4 +6,4 @@ execute as @e[type=armor_stand,tag=mob_despawner,scores={despawner.enable=1}] at
 execute as @e[type=armor_stand,tag=mini_mob_despawner,scores={despawner.enable=1}] at @s run function stevekung:mob_despawner/try_despawning_32
 
 # run loop
-schedule function stevekung:mob_despawner/despawner_schedule 160t
+schedule function stevekung:mob_despawner/despawner_schedule 80t
