@@ -1,0 +1,11 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blast_furnace"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blast_furnace"
+    }
+}

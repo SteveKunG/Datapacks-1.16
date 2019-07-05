@@ -1,0 +1,11 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blue_shulker_box"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blue_shulker_box"
+    }
+}

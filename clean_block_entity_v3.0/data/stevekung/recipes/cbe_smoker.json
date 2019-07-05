@@ -1,0 +1,11 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:smoker"
+        }
+    ],
+    "result": {
+        "item": "minecraft:smoker"
+    }
+}

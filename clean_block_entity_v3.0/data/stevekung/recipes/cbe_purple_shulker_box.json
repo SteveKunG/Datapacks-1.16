@@ -1,0 +1,11 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:purple_shulker_box"
+        }
+    ],
+    "result": {
+        "item": "minecraft:purple_shulker_box"
+    }
+}
