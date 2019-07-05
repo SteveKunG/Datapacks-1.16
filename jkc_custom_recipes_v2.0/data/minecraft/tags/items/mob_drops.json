@@ -13,6 +13,7 @@
         "minecraft:phantom_membrane",
         "minecraft:arrow",
         "minecraft:slime_ball",
-        "minecraft:spider_eye"
+        "minecraft:spider_eye",
+        "minecraft:tipped_arrow"
     ]
 }
