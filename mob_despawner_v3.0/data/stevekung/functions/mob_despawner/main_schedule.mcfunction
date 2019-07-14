@@ -2,9 +2,6 @@
 scoreboard players enable @a despawner.trigg
 execute as @a[scores={despawner.trigg=1..},gamemode=!spectator] at @s run function stevekung:mob_despawner/trigger
 
-# add team
-execute as @e[type=armor_stand,tag=mob_despawner_base,team=!MobDespawner] run team join MobDespawner @s
-
 # detect structure block
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] at @s unless entity @e[type=armor_stand,tag=mob_despawner,distance=..64] if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ end_rod[facing=down] if block ~ ~-2 ~ end_rod[facing=up] if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ emerald_block run function stevekung:mob_despawner/summon_despawner
 

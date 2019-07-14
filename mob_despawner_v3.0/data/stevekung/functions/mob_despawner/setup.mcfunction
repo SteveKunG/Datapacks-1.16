@@ -8,4 +8,6 @@ scoreboard objectives add despawner.enable dummy
 scoreboard players set MobDespawnGlowTicksTmp despawner.gticks 0
 
 team add MobDespawner
-team modify MobDespawner color green
+team add MiniMobDespawner
+team modify MobDespawner color red
+team modify MiniMobDespawner color green
