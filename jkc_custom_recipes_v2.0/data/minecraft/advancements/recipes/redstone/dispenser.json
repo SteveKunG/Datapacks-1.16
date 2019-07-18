@@ -13,7 +13,14 @@
                 "items": [
                     {
                         "item": "minecraft:bow"
-                    },
+                    }
+                ]
+            }
+        },
+        "has_dropper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
                     {
                         "item": "minecraft:dropper"
                     }
@@ -36,6 +43,7 @@
     "requirements": [
         [
             "has_bow",
+            "has_dropper",
             "has_the_recipe1",
             "has_the_recipe2"
         ]
