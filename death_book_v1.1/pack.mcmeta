@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 4,
+        "description": "Respawn after death with your death coords in a book."
+    }
+}
