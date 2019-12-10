@@ -20,6 +20,7 @@
         "minecraft:zombie_horse",
         "minecraft:villager",
         "minecraft:fox",
-        "minecraft:trader_llama"
+        "minecraft:trader_llama",
+        "minecraft:bee"
     ]
 }
