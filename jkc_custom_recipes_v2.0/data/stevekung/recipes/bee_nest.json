@@ -1,0 +1,19 @@
+{    
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "CLC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:honeycomb_block"
+        },
+        "L": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:bee_nest"
+    }
+}
