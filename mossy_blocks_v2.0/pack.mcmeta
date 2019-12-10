@@ -1,6 +1,6 @@
 ﻿{
     "pack": {
-        "pack_format": 4,
+        "pack_format": 5,
         "description": "§7Turn Cobblestone/Stone Bricks/Cobblestone Wall into mossy block!"
     }
 }
