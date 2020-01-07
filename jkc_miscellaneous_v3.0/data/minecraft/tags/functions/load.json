@@ -2,7 +2,6 @@
     "values": [
         "stevekung:play_time_tracker/setup",
         "stevekung:babyable_entities/main_schedule",
-        "stevekung:jkc_misc/main_schedule",
-        "stevekung:jkc_misc/clear_lag_entities"
+        "stevekung:jkc_misc/main_schedule"
     ]
 }
