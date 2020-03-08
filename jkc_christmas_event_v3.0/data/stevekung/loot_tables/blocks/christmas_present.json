@@ -1,0 +1,148 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": {
+                                        "min": 4.0,
+                                        "max": 9.0,
+                                        "type": "minecraft:uniform"
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:ore_drops"
+                                }
+                            ],
+                            "name": "minecraft:cookie"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": {
+                                        "min": 1.0,
+                                        "max": 2.0,
+                                        "type": "minecraft:uniform"
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:ore_drops"
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{CustomModelData:8301}"
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {"text":"Red Candy Cane","italic":false,"color":"blue"}
+                                }
+                            ],
+                            "name": "minecraft:carrot"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_count",
+                                    "count": {
+                                        "min": 1.0,
+                                        "max": 2.0,
+                                        "type": "minecraft:uniform"
+                                    }
+                                },
+                                {
+                                    "function": "minecraft:apply_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:ore_drops"
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{CustomModelData:8300}"
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "name": {"text":"Rainbow Candy Cane","italic":false,"color":"blue"}
+                                }
+                            ],
+                            "name": "minecraft:carrot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:table_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "chances": [
+                                        0.001,
+                                        0.0025,
+                                        0.005,
+                                        0.0075,
+                                        0.01
+                                    ]
+                                }
+                            ],
+                            "name": "minecraft:diamond_block"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:table_bonus",
+                                    "enchantment": "minecraft:fortune",
+                                    "chances": [
+                                        0.01
+                                    ]
+                                }
+                            ],
+                            "name": "minecraft:beacon"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

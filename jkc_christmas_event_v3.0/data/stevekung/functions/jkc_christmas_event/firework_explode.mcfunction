@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot stevekung:blocks/christmas_present

@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Item:{tag:{SkullOwner:{Id:"ab96899a-a86e-4d9e-b65e-f944022c4ad9"}}}}] run function stevekung:jkc_christmas_event/present_drop_1
+execute if entity @s[nbt={Item:{tag:{SkullOwner:{Id:"115f758b-635c-4762-80a9-1f0ebd7a8d78"}}}}] run function stevekung:jkc_christmas_event/present_drop_2
