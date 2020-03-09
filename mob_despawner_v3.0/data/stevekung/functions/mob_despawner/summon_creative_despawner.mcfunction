@@ -1,1 +1,1 @@
-execute align xyz run summon armor_stand ~0.5 ~-1 ~0.5 {Tags:["mob_despawner_creative"],Marker:1b,NoGravity:1b,Invisible:1b,Small:1b}
+execute align xyz run summon area_effect_cloud ~0.5 ~-1 ~0.5 {Tags:["mob_despawner_creative"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}

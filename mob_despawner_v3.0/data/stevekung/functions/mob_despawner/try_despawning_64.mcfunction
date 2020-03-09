@@ -1,3 +1,2 @@
 function stevekung:mob_despawner/despawning_entities_64
-playsound block.conduit.attack.target block @a[distance=..16] ~ ~ ~ 0.75 2
-playsound item.firecharge.use block @a[distance=..16] ~ ~ ~ 0.4 0.5
+function stevekung:mob_despawner/sounds_ticking
