@@ -1,5 +1,6 @@
 {
     "values": [
-        "stevekung:advanced_crafting_table/main_schedule"
+        "stevekung:advanced_crafting_table/main_schedule",
+        "stevekung:advanced_crafting_table/schedule_event"
     ]
 }

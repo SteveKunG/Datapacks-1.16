@@ -2,21 +2,21 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "R",
-        "D",
+        "E",
         "C"
     ],
     "key": {
         "R": {
             "item": "minecraft:redstone_block"
         },
-        "D": {
-            "item": "minecraft:dropper"
+        "E": {
+            "item": "minecraft:ender_chest"
         },
         "C": {
             "item": "minecraft:crafting_table"
         }
     },
     "result": {
-        "item": "minecraft:dropper"
+        "item": "minecraft:crafting_table"
     }
 }
