@@ -1,1 +1,1 @@
-execute as @e[type=wither,nbt={Invul:0},tag=!no_wither_sound] at @s run function stevekung:no_wither_sound/stop_sound
+execute as @e[type=wither,tag=!no_wither_sound,nbt={Invul:0}] run function stevekung:no_wither_sound/stop_sound
