@@ -1,0 +1,2 @@
+execute store result score @s magnet.id run data get entity @s Inventory[{id:"minecraft:iron_ingot",tag:{IsMagnet:1b}}].tag.CustomModelData
+execute store result score @s magnet.slot run data get entity @s Inventory[{id:"minecraft:iron_ingot",tag:{IsMagnet:1b}}].Slot

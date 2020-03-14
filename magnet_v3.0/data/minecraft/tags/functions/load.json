@@ -1,5 +1,7 @@
 {
     "values": [
-        "stevekung:magnet/main_schedule"
+        "stevekung:magnet/setup",
+        "stevekung:magnet/main_schedule",
+        "stevekung:magnet/data_schedule"
     ]
 }
