@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:redstone_ore"
+    },
+    "result": "minecraft:redstone_block",
+    "experience": 0.8,
+    "cookingtime": 100
+}
