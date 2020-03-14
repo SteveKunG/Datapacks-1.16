@@ -1,1 +1,0 @@
-execute as @e[type=item,nbt={Age:100s,Item:{id:"minecraft:emerald",Count:5b}}] at @s if entity @e[type=villager,name=undying,distance=..1] if block ~ ~ ~ light_weighted_pressure_plate if block ~1 ~ ~ redstone_torch if block ~-1 ~ ~ redstone_torch if block ~ ~ ~1 redstone_torch if block ~ ~ ~-1 redstone_torch run function stevekung:villager_totem/create_totem
