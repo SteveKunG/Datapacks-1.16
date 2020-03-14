@@ -6,11 +6,11 @@
         "INI"
     ],
     "key": {
-        "S": {
+        "P": {
             "tag": "minecraft:planks"
         },
         "G": {
-            "item": "minecraft:gold_blocks"
+            "item": "minecraft:gold_block"
         },
         "I": {
             "item": "minecraft:gold_ingot"
