@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetY": 1,
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:end_rod",
+                            "state": {
+                                "facing": "down"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:end_rod",
+                            "state": {
+                                "facing": "up"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:iron_block"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                        "block": {
+                            "block": "minecraft:emerald_block"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
