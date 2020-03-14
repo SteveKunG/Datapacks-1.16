@@ -1,1 +1,1 @@
-give @s totem_of_undying{CustomModelData:2552,display:{Lore:['{"text":"Raining IV","color":"gray","italic":"false"}','""','{"text":"Create raining for 60 minutes","color":"green","italic":"false"}'],Name:'{"text":"Rain Totem","color":"blue","italic":"false"}'},IsRainTotem:1b}
+give @s totem_of_undying{CustomModelData:2552,display:{Lore:['{"text":"Raining IV","color":"gray","italic":false}','""','{"text":"Create raining for 60 minutes","color":"green","italic":false}'],Name:'{"text":"Rain Totem","color":"blue","italic":false}'},IsRainTotem:1b}
