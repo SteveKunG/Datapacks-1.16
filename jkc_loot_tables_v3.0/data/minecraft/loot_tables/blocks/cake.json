@@ -19,17 +19,14 @@
                                     }
                                 ]
                             }
-                        },
+                        }
+                    ],
+                    "functions": [
                         {
-                            "condition": "minecraft:alternative",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:block_state_property",
-                                    "block": "minecraft:cake",
-                                    "properties": {
-                                        "bites": 0
-                                    }
-                                }
+                            "function": "minecraft:copy_state",
+                            "block": "minecraft:cake",
+                            "properties": [
+                                "bites"
                             ]
                         }
                     ],
