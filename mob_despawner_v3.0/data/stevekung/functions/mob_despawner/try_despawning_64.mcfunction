@@ -1,2 +1,0 @@
-function stevekung:mob_despawner/despawning_entities_64
-function stevekung:mob_despawner/sounds_ticking

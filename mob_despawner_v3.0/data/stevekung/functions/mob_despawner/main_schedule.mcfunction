@@ -1,6 +1,6 @@
 # trigger
 scoreboard players enable @a despawner.trigg
-execute as @a[scores={despawner.trigg=1..},gamemode=!spectator] at @s run function stevekung:mob_despawner/trigger
+execute as @a[scores={despawner.trigg=1..},gamemode=!spectator] at @s run function stevekung:mob_despawner/events/trigger
 
 # detect structure block
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] at @s unless entity @e[type=area_effect_cloud,tag=mob_despawner,distance=..64] if entity @e[type=item,nbt={Item:{id:"minecraft:diamond_sword"}},limit=1,distance=..0.5] if block ~ ~-1 ~ end_rod[facing=down] if block ~ ~-2 ~ end_rod[facing=up] if block ~ ~-3 ~ iron_block if block ~ ~-4 ~ emerald_block run function stevekung:mob_despawner/summon_despawner
@@ -25,7 +25,7 @@ execute as @e[type=area_effect_cloud,tag=mob_despawner_base] unless entity @s[sc
 
 ###### creative ######
 # despawn mobs
-execute as @e[type=area_effect_cloud,tag=mob_despawner_creative] at @s run function stevekung:mob_despawner/despawning_entities_64
+execute as @e[type=area_effect_cloud,tag=mob_despawner_creative] at @s run function stevekung:mob_despawner/events/despawning_entities_64
 execute as @e[type=area_effect_cloud,tag=bat_despawner] at @s run execute as @e[type=bat,distance=..64] unless data entity @s CustomName run tp @s ~ ~-200 ~
 
 # run loop

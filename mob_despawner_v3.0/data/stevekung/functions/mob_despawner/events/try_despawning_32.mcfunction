@@ -1,0 +1,2 @@
+function stevekung:mob_despawner/events/despawning_entities_32
+function stevekung:mob_despawner/ticks/sound
