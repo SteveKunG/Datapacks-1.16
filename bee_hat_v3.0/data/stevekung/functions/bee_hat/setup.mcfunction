@@ -1,0 +1,1 @@
+scoreboard objectives add bee_hat.equip dummy
