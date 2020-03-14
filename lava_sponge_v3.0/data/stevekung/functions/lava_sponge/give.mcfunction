@@ -1,1 +1,1 @@
-give @s iron_ingot{IsLavaSponge:1b,CustomModelData:2582,Enchantments:[{id:"mending",lvl:1}],HideFlags:1,display:{Lore:['{"text":"Used by throwing into lava","color":"red","italic":"false"}'],Name:'{"text":"Lava Sponge","color":"gold","italic":"false"}'}}
+give @s iron_ingot{IsLavaSponge:1b,CustomModelData:2582,Enchantments:[{id:"mending",lvl:1}],HideFlags:1,display:{Lore:['{"text":"Used by throwing into lava","color":"red","italic":false}'],Name:'{"text":"Lava Sponge","color":"gold","italic":false}'}}
