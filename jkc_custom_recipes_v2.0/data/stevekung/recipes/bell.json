@@ -1,15 +1,18 @@
 {    
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "SSS",
-        "XXX",
-        "XNX"
+        "PPP",
+        " G ",
+        "INI"
     ],
     "key": {
         "S": {
-            "tag": "minecraft:sticks"
+            "tag": "minecraft:planks"
         },
-        "X": {
+        "G": {
+            "item": "minecraft:gold_blocks"
+        },
+        "I": {
             "item": "minecraft:gold_ingot"
         },
         "N": {
