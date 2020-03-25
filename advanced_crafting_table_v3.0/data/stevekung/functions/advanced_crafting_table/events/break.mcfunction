@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=ender_craft,sort=nearest,limit=1] at @s run function stevekung:advanced_crafting_table/events/editable_break

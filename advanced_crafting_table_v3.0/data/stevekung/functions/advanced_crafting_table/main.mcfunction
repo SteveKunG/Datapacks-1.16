@@ -1,3 +1,2 @@
-execute as @a[scores={cw_ender_open=1..}] at @s run function stevekung:advanced_crafting_table/events/open_chest
-execute as @a[tag=cw_crafting] run function stevekung:advanced_crafting_table/chest/main
-execute as @e[type=armor_stand,tag=ender_craft] at @s if block ~ ~ ~ air run function stevekung:advanced_crafting_table/events/break
+# check if dropper dropped
+execute as @e[type=armor_stand,tag=adv_crafting_table] at @s unless block ~ ~ ~ dropper run function stevekung:advanced_crafting_table/merge

@@ -1,1 +1,0 @@
-execute if score #success cw_ender_craft matches 0 run function #stevekung:recipes
