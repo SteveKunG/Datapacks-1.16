@@ -3,5 +3,6 @@ scoreboard objectives remove jkc_lag.exp
 scoreboard objectives remove jkc_lag.ticks
 scoreboard objectives remove jkc_lag.second
 scoreboard objectives remove jkc_lag.tickstmp
+scoreboard objectives remove jkc_lag.ldeath
 datapack disable "file/jkc_clear_lag_v2.0"
 datapack disable "file/jkc_clear_lag_v2.0.zip"
