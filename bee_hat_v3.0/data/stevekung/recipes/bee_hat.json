@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HHH",
+        "HLH"
+    ],
+    "key": {
+        "H": {
+            "item": "minecraft:honeycomb_block"
+        },
+        "L": {
+            "item": "minecraft:leather_helmet"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

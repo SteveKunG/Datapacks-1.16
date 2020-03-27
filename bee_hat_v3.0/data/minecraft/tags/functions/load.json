@@ -1,6 +1,7 @@
 {
     "values": [
         "stevekung:bee_hat/main_schedule",
-        "stevekung:bee_hat/data_schedule"
+        "stevekung:bee_hat/data_schedule",
+        "stevekung:bee_hat/setup"
     ]
 }

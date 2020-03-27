@@ -1,0 +1,1 @@
+give @s leather_helmet{display:{Lore:['{"text":"Prevent Bee anger in 12 blocks radius","color":"aqua","italic":false}'],color:16760576,Name:'{"text":"Bee Hat","color":"yellow","italic":false}'},BeeArtifact:1b}
