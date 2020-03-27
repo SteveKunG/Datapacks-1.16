@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stevekung:diamond_shears"
+			}
+		}
+	},
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"function": "stevekung:custom_tools/diamond_shears"
+	}
+}
