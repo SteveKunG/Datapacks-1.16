@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SNW",
+        " T "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:snowball"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        },
+        "T": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

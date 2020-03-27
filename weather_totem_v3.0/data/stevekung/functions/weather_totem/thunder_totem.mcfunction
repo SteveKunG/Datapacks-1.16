@@ -1,2 +1,4 @@
-# craft thunder totem
-execute if block ~ ~ ~ dropper[facing=down]{CustomName:'{"italic":false,"color":"blue","text":"Advanced Crafting Table"}',Items:[{Slot:0b,id:"minecraft:snowball",Count:1b},{Slot:2b,id:"minecraft:water_bucket",Count:1b},{Slot:4b,id:"minecraft:totem_of_undying",Count:1b},{Slot:7b,id:"minecraft:nether_star",Count:1b}]} run data merge block ~ ~ ~ {Items:[{id:"minecraft:totem_of_undying",Count:1b,Slot:4b,tag:{IsThunderTotem:1b,CustomModelData:2553,display:{Name:'{"text":"Thunder Totem","color":"blue","italic":false}',Lore:['{"text":"Raining IV","color":"gray","italic":false}','{"text":"Thunder V","color":"gray","italic":false}','""','{"text":"Create raining and thunder storm for 30 minutes","color":"green","italic":false}']}}},{id:"bucket",Count:1b,Slot:2b}]}
+clear @s knowledge_book 1
+function stevekung:weather_totem/give_thunder_totem
+advancement revoke @s only stevekung:thunder_totem
+recipe take @s stevekung:thunder_totem

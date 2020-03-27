@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stevekung:rain_totem"
+			}
+		}
+	},
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"function": "stevekung:weather_totem/rain_totem"
+	}
+}
