@@ -161,6 +161,38 @@
                         }
                     ],
                     "name": "minecraft:apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:table_bonus",
+                            "enchantment": "minecraft:fortune",
+                            "chances": [
+                                0.025,
+                                0.05,
+                                0.075
+                            ]
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{JKCCustomFood:1b,CustomModelData:8202}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"text":"Banana","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [{"text":"A sweet fruit for monkey and human","color":"gray","italic":false},{"text":"that drops only in the jungle","color":"gray","italic":false}]
+                        }
+                    ],
+                    "name": "minecraft:apple"
                 }
             ],
             "conditions": [
