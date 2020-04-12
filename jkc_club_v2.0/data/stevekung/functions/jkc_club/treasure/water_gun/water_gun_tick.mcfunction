@@ -1,0 +1,2 @@
+execute if entity @s[scores={jkc_club.wtgun=1..}] if predicate stevekung:water_gun_check at @s run function stevekung:jkc_club/treasure/water_gun/remove_score
+scoreboard players set @s jkc_club.wtgun 0

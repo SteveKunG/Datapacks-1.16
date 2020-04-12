@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{WaterGun:1b,display:{Name:'{"text":"Water Gun","color":"blue","italic":false}',Lore:['{"text":"Phew phew","color":"gray","italic":false}']}}
