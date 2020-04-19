@@ -1,1 +1,3 @@
-give @s carrot_on_a_stick{WaterGun:1b,display:{Name:'{"text":"Water Gun","color":"blue","italic":false}',Lore:['{"text":"Phew phew","color":"gray","italic":false}']}}
+give @s carrot_on_a_stick{WaterGun:1b,CustomModelData:8050,display:{Name:'{"text":"Water Gun","color":"blue","italic":false}',Lore:['{"text":"Phew phew","color":"gray","italic":false}','""','{"text":"Model by PonPun","color":"gold"}']}}
+give @s carrot_on_a_stick{WaterGun:1b,CustomModelData:8051,display:{Name:'{"text":"Water Gun","color":"blue","italic":false}',Lore:['{"text":"Phew phew","color":"gray","italic":false}','""','{"text":"Model by PonPun","color":"gold"}']}}
+give @s carrot_on_a_stick{WaterGun:1b,CustomModelData:8052,display:{Name:'{"text":"Water Gun","color":"blue","italic":false}',Lore:['{"text":"Phew phew","color":"gray","italic":false}','""','{"text":"Model by PonPun","color":"gold"}']}}

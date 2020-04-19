@@ -40,6 +40,30 @@
                     "tag": "minecraft:crops"
                 }
             }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "block": "minecraft:snow"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "block": "minecraft:grass_path"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "block": "minecraft:grass"
+                }
+            }
         }
     ]
 }

@@ -4,7 +4,7 @@ particle splash ~ ~ ~ 0.1 0.1 0.1 0 10
 #execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s glowing 1 0 true
 
 # target entity
-execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s slowness 5 4 true
+execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s[gamemode=!spectator,gamemode=!creative] slowness 5 4 true
 #execute as @e[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run tag @s add water_gun
 
 

@@ -1,0 +1,2 @@
+fill -906 68 381 -906 77 391 air destroy
+tellraw @a [{"text":"EIEIEIEIEI ","obfuscated":true},{"text":"The TATH","color":"aqua","bold":true,"obfuscated":false},{"text":" gate opened!","color":"white","bold":true,"obfuscated":false},{"text":" EIEIEIEIEI ","obfuscated":true}]

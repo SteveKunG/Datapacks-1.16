@@ -1,0 +1,1 @@
+scoreboard players set @e[tag=spawn,limit=1] jkc_club.tintro 1
