@@ -1,6 +1,6 @@
 ﻿{
     "pack": {
         "pack_format": 5,
-        "description": "§aRemoved Color or Custom Name from your containers"
+        "description": "§aRemove color or custom name from container blocks"
     }
 }
