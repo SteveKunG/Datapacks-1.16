@@ -9,6 +9,6 @@
 	},
 	"parent": "minecraft:recipes/root",
 	"rewards": {
-		"function": "stevekung:bee_hat/bee_hat"
+		"function": "stevekung:bee_hat/recipe"
 	}
 }
