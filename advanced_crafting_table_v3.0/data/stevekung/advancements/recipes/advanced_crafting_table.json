@@ -9,6 +9,6 @@
 	},
 	"parent": "minecraft:recipes/root",
 	"rewards": {
-		"function": "stevekung:advanced_crafting_table/advanced_crafting_table"
+		"function": "stevekung:advanced_crafting_table/recipe"
 	}
 }
