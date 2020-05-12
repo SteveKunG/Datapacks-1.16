@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:leather_helmet",
-            "nbt": "{display:{color:16760576}}"
+            "item": "minecraft:white_concrete"
         },
         "title": {
-            "text": "Bee Hat"
+            "text": "Concrete Powder to Concrete"
         },
         "description": {
-            "text": "Make bees always calm",
+            "text": "Simply make a concrete by throws into water!",
             "color": "green"
         },
         "show_toast": false,
