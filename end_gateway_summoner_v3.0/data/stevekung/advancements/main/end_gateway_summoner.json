@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{CustomModelData:2562,Enchantments:[{}]}"
+        },
+        "title": {
+            "text": "End Gateway Summoner"
+        },
+        "description": {
+            "text": "Make an Elytra feel like armor!",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "stevekung:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

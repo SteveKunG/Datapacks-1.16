@@ -9,6 +9,6 @@
 	},
 	"parent": "minecraft:recipes/root",
 	"rewards": {
-		"function": "stevekung:end_gateway_summoner/end_gateway_summoner"
+		"function": "stevekung:end_gateway_summoner/recipe"
 	}
 }
