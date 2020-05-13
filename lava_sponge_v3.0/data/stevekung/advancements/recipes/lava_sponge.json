@@ -9,6 +9,6 @@
 	},
 	"parent": "minecraft:recipes/root",
 	"rewards": {
-		"function": "stevekung:lava_sponge/lava_sponge"
+		"function": "stevekung:lava_sponge/recipe"
 	}
 }
