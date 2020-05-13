@@ -18,7 +18,7 @@
                                 },
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 0.6
+                                    "chance": 0.2
                                 }
                             ],
                             "functions": [
@@ -27,7 +27,7 @@
                                     "tag": "{XpValue:1}"
                                 }
                             ],
-                            "name": "minecraft:charcoal"
+                            "name": "minecraft:smooth_red_sandstone"
                         },
                         {
                             "type": "minecraft:item",
@@ -39,7 +39,7 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:charcoal"
+                            "name": "minecraft:smooth_red_sandstone"
                         },
                         {
                             "type": "minecraft:item",
@@ -48,7 +48,7 @@
                                     "condition": "minecraft:survives_explosion"
                                 }
                             ],
-                            "name": "minecraft:birch_log"
+                            "name": "minecraft:red_sandstone"
                         }
                     ]
                 }

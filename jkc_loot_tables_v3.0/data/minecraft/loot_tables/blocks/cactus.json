@@ -18,13 +18,13 @@
                                 },
                                 {
                                     "condition": "minecraft:random_chance",
-                                    "chance": 0.4
+                                    "chance": 0.8
                                 }
                             ],
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
-                                    "tag": "{XpValue:1}"
+                                    "tag": "{XpValue:2}"
                                 }
                             ],
                             "name": "minecraft:green_dye"

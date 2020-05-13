@@ -15,28 +15,12 @@
                                     "predicate": {
                                         "nbt": "{Smelting:1b}"
                                     }
-                                },
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.95
                                 }
                             ],
                             "functions": [
                                 {
                                     "function": "minecraft:set_nbt",
                                     "tag": "{XpValue:5}"
-                                }
-                            ],
-                            "name": "minecraft:gold_ingot"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "nbt": "{Smelting:1b}"
-                                    }
                                 }
                             ],
                             "name": "minecraft:gold_ingot"
