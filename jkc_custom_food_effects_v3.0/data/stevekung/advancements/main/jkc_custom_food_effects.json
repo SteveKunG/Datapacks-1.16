@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:apple",
+            "nbt": "{CustomModelData:8030}"
+        },
+        "title": {
+            "text": "JKC Custom Food Effects"
+        },
+        "description": {
+            "text": "Jukucrush Custom Food Effects!",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "stevekung:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
