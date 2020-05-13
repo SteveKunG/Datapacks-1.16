@@ -1,1 +1,0 @@
-execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {Tags:["stop_thunder"],Invulnerable:1b,CustomNameVisible:1b,CustomName:'{"text":"Stop Thundering","color":"red"}'}

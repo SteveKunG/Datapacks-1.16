@@ -1,0 +1,1 @@
+execute align xyz run summon area_effect_cloud ~0.5 ~1 ~0.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["stop_thunder"],CustomNameVisible:1b,CustomName:'{"text":"Stop Thundering","color":"red"}'}

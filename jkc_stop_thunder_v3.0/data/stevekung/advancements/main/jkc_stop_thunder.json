@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {
+            "text": "JKC Stop Thunder"
+        },
+        "description": {
+            "text": "Jukucrush Stop Thundering!",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "stevekung:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
