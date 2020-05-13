@@ -1,2 +1,1 @@
-execute if entity @s[scores={despawner.effect=1}] run playsound block.conduit.attack.target block @a[distance=..16] ~ ~ ~ 0.75 2
-execute if entity @s[scores={despawner.effect=1}] run playsound item.firecharge.use block @a[distance=..16] ~ ~ ~ 0.4 0.5
+execute if entity @s[scores={despawner.effect=1}] run function stevekung:mob_despawner/events/play_despawn_sounds

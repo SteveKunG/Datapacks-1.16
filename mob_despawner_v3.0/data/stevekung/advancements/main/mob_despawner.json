@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": {
+            "text": "Mob Despawner"
+        },
+        "description": {
+            "text": "Despawning mobs in your world!",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "stevekung:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
