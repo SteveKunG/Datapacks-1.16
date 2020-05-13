@@ -7,6 +7,8 @@ data modify block ~ ~ ~ Items[{Slot:4b}].tag.display.Lore append value '{"text":
 data modify block ~ ~ ~ Items[{Slot:0b}].id set value "air"
 data modify block ~ ~ ~ Items[{Slot:1b}].id set value "air"
 data modify block ~ ~ ~ Items[{Slot:2b}].id set value "air"
+data modify block ~ ~ ~ Items[{Slot:3b}].id set value "air"
+data modify block ~ ~ ~ Items[{Slot:5b}].id set value "air"
 data modify block ~ ~ ~ Items[{Slot:6b}].id set value "air"
 data modify block ~ ~ ~ Items[{Slot:7b}].id set value "air"
 data modify block ~ ~ ~ Items[{Slot:8b}].id set value "air"

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {
+            "text": "JKC Custom Recipes"
+        },
+        "description": {
+            "text": "Jukucrush Custom Recipes!",
+            "color": "green"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "stevekung:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
