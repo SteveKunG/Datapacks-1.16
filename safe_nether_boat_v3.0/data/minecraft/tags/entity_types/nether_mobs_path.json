@@ -1,6 +1,9 @@
 {
     "values": [
-        "minecraft:zombie_pigman",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin",
+        "minecraft:hoglin",
+        "minecraft:zoglin",
         "minecraft:magma_cube",
         "minecraft:chicken"
     ]

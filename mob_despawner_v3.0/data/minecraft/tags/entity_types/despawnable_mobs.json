@@ -16,7 +16,9 @@
         "minecraft:spider",
         "minecraft:stray",
         "minecraft:witch",
-        "minecraft:zombie_pigman",
+        "minecraft:zoglin",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
         "minecraft:zombie_villager",
         "minecraft:pillager",
         "minecraft:vindicator"

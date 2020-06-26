@@ -21,6 +21,8 @@
         "minecraft:villager",
         "minecraft:fox",
         "minecraft:trader_llama",
-        "minecraft:bee"
+        "minecraft:bee",
+        "minecraft:hoglin",
+        "minecraft:strider"
     ]
 }
