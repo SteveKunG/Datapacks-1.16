@@ -1,0 +1,19 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "group": "block_from_stairs",
+    "ingredients": [
+        {
+            "item": "minecraft:crimson_stairs"
+        },
+        {
+            "item": "minecraft:crimson_stairs"
+        },
+        {
+            "item": "minecraft:crimson_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:crimson_planks",
+        "count": 3
+    }
+}
