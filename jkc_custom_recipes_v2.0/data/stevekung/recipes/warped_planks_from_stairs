@@ -1,0 +1,19 @@
+{    
+    "type": "minecraft:crafting_shapeless",
+    "group": "block_from_stairs",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_stairs"
+        },
+        {
+            "item": "minecraft:warped_stairs"
+        },
+        {
+            "item": "minecraft:warped_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:warped_planks",
+        "count": 3
+    }
+}
