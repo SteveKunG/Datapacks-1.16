@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XBX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:gold_nugget"
+        },
+        "G": {
+            "item": "minecraft:blackstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:gilded_blackstone"
+    }
+}
