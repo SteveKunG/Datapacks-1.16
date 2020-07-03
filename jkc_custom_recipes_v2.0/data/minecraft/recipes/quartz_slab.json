@@ -5,7 +5,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:quartz_blocks"
+            "item": "minecraft:smooth_quartz"
         }
     },
     "result": {
