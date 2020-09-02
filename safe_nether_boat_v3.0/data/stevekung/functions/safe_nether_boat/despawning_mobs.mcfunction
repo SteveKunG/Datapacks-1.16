@@ -1,1 +1,0 @@
-tp @e[type=#nether_mobs_path,nbt=!{PersistenceRequired:1b},distance=..24] ~ ~-200 ~

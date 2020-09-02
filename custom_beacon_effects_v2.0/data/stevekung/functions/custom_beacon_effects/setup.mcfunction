@@ -1,1 +1,0 @@
-scoreboard objectives add beacon.ticks dummy
